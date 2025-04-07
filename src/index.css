@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 'all 1s ease-out';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.zoom {
+  transition: scale 0.25s;
+}
+
+.zoom:hover {
+  scale: 1.5;
+}
+
+.spin {
+  transition: transform 1s, scale 1s;
+}
+
+.spin:hover {
+  transform: rotate(360deg);
+  scale: 2.5;
+}
+
+.textshadow {
+  text-shadow: 15px 15px 10px black, 1px 1px 5px #006aff;
+}
+.boxshadow {
+  box-shadow: 10px 10px 50px black, 1px 1px 5px #006aff;
+}
+
+.card-body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 10, 1) 100%);
+}
+
+.modal-content {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #111111 100%);
+}
+
+.floating {
+  animation: floating 2s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

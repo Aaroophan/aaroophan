@@ -1,0 +1,44 @@
+{
+		"Main": {
+			"Image": "Photo",
+			"Greeting" : "Hi, I'm",
+			"Name": "Aaroophan Varatharajan",
+			"Tags": [
+				"Full Stack Developer",
+				"Junior Database Developer",
+				"Animation Enthusiast"
+			],
+			"Links" : [
+				{
+					"Name": "Instagram",
+					"Icon": "instagram",
+					"Href": "https://www.instagram.com/aaroophan/?theme=dark"
+				},
+				{
+					"Name": "LinkedIn",
+					"Icon": "linkedin",
+					"Href": "https://www.linkedin.com/in/aaroophan/"
+				},
+				{
+					"Name": "GitHub",
+					"Icon": "github",
+					"Href": "https://github.com/R-U-Fun"
+				},
+				{
+					"Name": "Email",
+					"Icon": "envelope-fill",
+					"Href": "mailto:arophn@gmail.com"
+				},
+				{
+					"Name": "Phone",
+					"Icon": "telephone-fill",
+					"Href": "tel:+94768505131"
+				},
+				{
+					"Name": "Resume",
+					"Icon": "file-person-fill",
+					"Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
+				}
+			]
+		}
+	}
