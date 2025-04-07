@@ -100,7 +100,7 @@ export default function Header(){
             setCurrentTagIndex((prevIndex) => 
                 (prevIndex + 1) % ServerURL.Data().Main.Backgrounds.length
             );
-        }, 4000);
+        }, 8000);
 
         return () => clearInterval(interval);
     }, []);
@@ -130,7 +130,7 @@ export default function Header(){
         Header =    <header>
                         <div class="container-fluids">
                             <nav className={`navbar navbar-expand-md navbar-transparent fixed-top bg-transparent`} style={{backdropFilter: 'blur(10px) brightness(80%)'}}>
-                                <i class="bi bi-linkedin text-light fs-2 ms-4 me-2"></i>
+                                <a class="bi bi-linkedin text-light fs-2 ms-4 me-2" href="https://www.linkedin.com/in/aaroophan"></a>
                                 <Link to="/">
                                     <a class="navbar-brand btn fw-bold fs-3 font-arial text-secondary text-decoration-none" id="PageNameA"  style={{ fontFamily: "Caveat, cursive" }}>
                                         {ServerURL.Data().Main.Name.split(" ")[0].split("").map((letter, index) => (

@@ -203,6 +203,7 @@ function Router({ UserData }){
         }
     }, [location.pathname, UserData]);
 
+    console.log(JSON.stringify(ServerURL.Data(), null, 2));
     return (
         <>
         <Routes>

@@ -137,6 +137,7 @@ export default function Techs() {
         </motion.div></>
     ));
     let Title = "What I Know...";
+    
     return (
         <div className="container text-center pt-5 pb-5">
             <h2 class="floating textshadow fw-bold text-white mb-4 mt-4" style={{ cursor:'default'}}>
