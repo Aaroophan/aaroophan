@@ -236,7 +236,7 @@ export default function Hi(){
                         }
                     }}
                 >
-                    {/* <img alt="Aaroophan" effect="blur" src={ServerURL.Data().Main.Images[currentTagIndex2]} height="300px" width="300px" class={`img-fluid floating boxshadow zoom rounded-1 border border-${ThemeSingleton.getTheme()} border-2 rounded-5`} /> */}
+                    {window.innerWidth < 1000 ? <img alt="Aaroophan" effect="blur" src={ServerURL.Data().Main.Images[currentTagIndex2]} height="300px" width="300px" class={`img-fluid floating boxshadow zoom rounded-1 border border-${ThemeSingleton.getTheme()} border-2 rounded-5`} /> : <></>}
                 </motion.div>
                 <br/><br/>
                 <p class="zoom textshadow"  style={{ fontFamily: "Caveat, cursive" }} dangerouslySetInnerHTML={{ __html: (Quote) && window.innerWidth > 1000 ? Quote.h : "" }} />

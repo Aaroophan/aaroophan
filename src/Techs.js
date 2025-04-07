@@ -51,11 +51,11 @@ export default function Techs() {
     isInView2[6] = useInView(ref2[6], { once: false, threshold: 0.2 });
     isInView2[7] = useInView(ref2[7], { once: false, threshold: 0.2 });
 
-    const [slidesToShow, setSlidesToShow] = useState(window.innerWidth < 1000 ? 5 : 10);
+    const [slidesToShow, setSlidesToShow] = useState(window.innerWidth < 1000 ? 3 : 10);
 
     useEffect(() => {
         const handleResize = () => {
-            setSlidesToShow(window.innerWidth < 1000 ? 5 : 10);
+            setSlidesToShow(window.innerWidth < 1000 ? 3 : 10);
         };
 
         window.addEventListener('resize', handleResize);

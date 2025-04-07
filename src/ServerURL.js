@@ -5,95 +5,95 @@ import Photo from "./Images/Aaroophan - Portrait - 2024.jpg";
 
 import Man3d from "./Man3D";
 
-import MDB from "./Images/mdb.png";
-import Exp from "./Images/express.png";
-import Rct from "./Images/react.png";
-import njs from "./Images/nodejs.png";
-import tjs from "./Images/TJS.png";
-import btstrp from "./Images/Bstrp.png";
-import html from "./Images/html.png";
-import css from "./Images/css.png";
-import js from "./Images/JavaScript.png";
-import ts from "./Images/Typescript.png";
-import sql from "./Images/SQL.png";
-import cs from "./Images/CSharp.png";
-import jav from "./Images/java.jpg";
-import py from "./Images/python.jpg";
-import php from "./Images/PHP.png";
-import fl from "./Images/flask.png";
-import oai from "./Images/openai.png";
-import msql from "./Images/mysql.jpg";
-import psql from "./Images/postgres.png";
-import ssms from "./Images/SSMS.png";
-import ssis from "./Images/SSIS.png";
-import ssrs from "./Images/SSRS.jpg";
-import nsql from "./Images/NSQL.jpg";
-import fbs from "./Images/fbs.png";
-import orcl from "./Images/orcl.png";
-import sel from "./Images/Sel.png";
-import blz from "./Images/blazor.png";
-import dnt from "./Images/dnt.png";
-import pga4 from "./Images/pga4.jpg";
-import dbvr from "./Images/dbvr.png";
-import vs from "./Images/vs.jpeg";
-import vsc from "./Images/vsc.svg";
-import astd from "./Images/astd.png";
-import git from "./Images/git.png";
-import gith from "./Images/gith.png";
-import JIRA from "./Images/JIRA.png";
-import trlo from "./Images/trello.svg";
-import pyt from "./Images/pyt.jpeg";
-import hgfc from "./Images/hgfc.svg";
-import pnds from "./Images/pnds.png";
-import nmpy from "./Images/nmpy.png";
-import nlp from "./Images/nlp.png";
-import MacLear from "./Images/ML.jpg";
+// import MDB from "./Images/mdb.png";
+// import Exp from "./Images/express.png";
+// import Rct from "./Images/react.png";
+// import njs from "./Images/nodejs.png";
+// import tjs from "./Images/TJS.png";
+// import btstrp from "./Images/Bstrp.png";
+// import html from "./Images/html.png";
+// import css from "./Images/css.png";
+// import js from "./Images/JavaScript.png";
+// import ts from "./Images/Typescript.png";
+// import sql from "./Images/SQL.png";
+// import cs from "./Images/CSharp.png";
+// import jav from "./Images/java.jpg";
+// import py from "./Images/python.jpg";
+// import php from "./Images/PHP.png";
+// import fl from "./Images/flask.png";
+// import oai from "./Images/openai.png";
+// import msql from "./Images/mysql.jpg";
+// import psql from "./Images/postgres.png";
+// import ssms from "./Images/SSMS.png";
+// import ssis from "./Images/SSIS.png";
+// import ssrs from "./Images/SSRS.jpg";
+// import nsql from "./Images/NSQL.jpg";
+// import fbs from "./Images/fbs.png";
+// import orcl from "./Images/orcl.png";
+// import sel from "./Images/Sel.png";
+// import blz from "./Images/blazor.png";
+// import dnt from "./Images/dnt.png";
+// import pga4 from "./Images/pga4.jpg";
+// import dbvr from "./Images/dbvr.png";
+// import vs from "./Images/vs.jpeg";
+// import vsc from "./Images/vsc.svg";
+// import astd from "./Images/astd.png";
+// import git from "./Images/git.png";
+// import gith from "./Images/gith.png";
+// import JIRA from "./Images/JIRA.png";
+// import trlo from "./Images/trello.svg";
+// import pyt from "./Images/pyt.jpeg";
+// import hgfc from "./Images/hgfc.svg";
+// import pnds from "./Images/pnds.png";
+// import nmpy from "./Images/nmpy.png";
+// import nlp from "./Images/nlp.png";
+// import MacLear from "./Images/ML.jpg";
 
-import ps from "./Images/ps.png";
-import ai from "./Images/AI.png";
-import ae from "./Images/ae.png";
-import may from "./Images/maya.jpg";
+// import ps from "./Images/ps.png";
+// import ai from "./Images/AI.png";
+// import ae from "./Images/ae.png";
+// import may from "./Images/maya.jpg";
 
-import AFCLOD from "./Images/AFCLOD.png";
-import MT from "./Images/MT.jpeg";
-import LD from "./Images/LocDev.jpeg";
-import Dom from "./Images/Dom.jpeg";
-import ML from "./Images/ML.png";
-import TT from "./Images/TT.jpeg";
-import BB from "./Images/BB1.png";
-import EM from "./Images/EveryMoveProgress.png";
-import TD from "./Images/2D.png";
+// import AFCLOD from "./Images/AFCLOD.png";
+// import MT from "./Images/MT.jpeg";
+// import LD from "./Images/LocDev.jpeg";
+// import Dom from "./Images/Dom.jpeg";
+// import ML from "./Images/ML.png";
+// import TT from "./Images/TT.jpeg";
+// import BB from "./Images/BB1.png";
+// import EM from "./Images/EveryMoveProgress.png";
+// import TD from "./Images/2D.png";
 
-import MDZ from "./Images/MDZ_logo.jpg";
-import AFC from "./Images/afcplc_logo.jpeg";
+// import MDZ from "./Images/MDZ_logo.jpg";
+// import AFC from "./Images/afcplc_logo.jpeg";
 
-import UoB from "./Images/UoB.png";
-import SCU from "./Images/SCU.jpg";
-import SMC from "./Images/SMC.png";
+// import UoB from "./Images/UoB.png";
+// import SCU from "./Images/SCU.jpg";
+// import SMC from "./Images/SMC.png";
 
-import Ude from "./Images/Udemy.png";
-import BC from "./Images/BritishCouncil.png";
-import LI from "./Images/LI.png";
-import Cube from "./Cube";
-import CurrentUserNameSingleton from './UserSingleton';
+// import Ude from "./Images/Udemy.png";
+// import BC from "./Images/BritishCouncil.png";
+// import LI from "./Images/LI.png";
+// import Cube from "./Cube";
+// import CurrentUserNameSingleton from './UserSingleton';
 
-import BG_E1 from "./Images/BG_1.jpeg"
-import BG_E2 from "./Images/BG_2.JPG"
-import BG_E3 from "./Images/BG_3.png"
-import BG_E4 from "./Images/BG_4.JPG"
-import BG_E5 from "./Images/BG_5.png"
-import BG_E6 from "./Images/BG_6.JPG"
-import BG_E7 from "./Images/BG_7.png"
-import BG_E8 from "./Images/BG_8.JPG"
-import BG_E9 from "./Images/BG_9.png"
-import BG_E10 from "./Images/BG_10.JPG"
+// import BG_E1 from "./Images/BG_1.jpeg"
+// import BG_E2 from "./Images/BG_2.JPG"
+// import BG_E3 from "./Images/BG_3.png"
+// import BG_E4 from "./Images/BG_4.JPG"
+// import BG_E5 from "./Images/BG_5.png"
+// import BG_E6 from "./Images/BG_6.JPG"
+// import BG_E7 from "./Images/BG_7.png"
+// import BG_E8 from "./Images/BG_8.JPG"
+// import BG_E9 from "./Images/BG_9.png"
+// import BG_E10 from "./Images/BG_10.JPG"
 
-import Profile_1 from "./Images/Profile_1.JPG";
-import Profile_2 from "./Images/Profile_2.JPG";
-import Profile_3 from "./Images/Profile_3.JPG";
-import Profile_4 from "./Images/Profile_4.JPG";
-import Profile_5 from "./Images/Profile_5.JPG";
-import Profile_6 from "./Images/Profile_6.JPG";
+// import Profile_1 from "./Images/Profile_1.JPG";
+// import Profile_2 from "./Images/Profile_2.JPG";
+// import Profile_3 from "./Images/Profile_3.JPG";
+// import Profile_4 from "./Images/Profile_4.JPG";
+// import Profile_5 from "./Images/Profile_5.JPG";
+// import Profile_6 from "./Images/Profile_6.JPG";
 
 class Server {
     
@@ -173,403 +173,403 @@ class Server {
 		// const Cube= React.lazy(() => import("./Cube"));
 
 
-		let UserData = {
-			"Main": {
-				"Image": "/static/media/Aaroophan - Portrait - 2024.3351919793e2eb5fbd8b.jpg",
-				"Greeting" : "Hi, I'm",
-				"Name": "Aaroophan Varatharajan",
-				"Tags": [
-					// "Full Stack Developer",
-					// "Associate Database Developer",
-					"Animation Enthusiast",
-					"Full Stack Developer",
-					"Associate Database Developer",
-					"Agile Team Player",
-					"React, Node, C#, .NET, SQL, PostgreSQL",
-					"MERN Stack Enthusiast"
-				],
-				"Links" : [
-					{
-						"Name": "Instagram",
-						"Icon": "instagram",
-						"Href": "https://www.instagram.com/aaroophan/?theme=dark"
-					},
-					{
-						"Name": "LinkedIn",
-						"Icon": "linkedin",
-						"Href": "https://www.linkedin.com/in/aaroophan/"
-					},
-					{
-						"Name": "GitHub",
-						"Icon": "github",
-						"Href": "https://github.com/R-U-Fun"
-					},
-					{
-						"Name": "Email",
-						"Icon": "envelope-fill",
-						"Href": "mailto:arophn@gmail.com"
-					},
-					{
-						"Name": "Phone",
-						"Icon": "telephone-fill",
-						"Href": "tel:+94768505131"
-					},
-					{
-						"Name": "Resume",
-						"Icon": "file-person-fill",
-						"Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
-					}
-				],
-				"Backgrounds": [
-					BG_E1,
-					BG_E2,
-					BG_E3,
-					BG_E4,
-					BG_E5,
-					BG_E6,
-					BG_E7,
-					BG_E8,
-					BG_E9
-				],
-				"Images": [
-					Profile_1,
-					Profile_2
-				]
-			},
-			"About": {
-				"ThreeDeeObj": Man3d,
-				"Description": "Hello,\n\nI am Aaroophan Varatharajan, a Computer Science and Software Engineering graduate from SLIIT City Uni, affiliated with the University of Bedfordshire, UK, with a Second-Class Upper degree and a Higher Diploma in IT. I was recognized on the Dean’s List. I am working as an Associate Database Developer at M Data Zone (Colombo, Sri Lanka) after being promoted from my previous role as Junior Database Developer since September 2024. I have expertise in software development because, my interest is in it, and I have completed several projects, with a strong command of SQL, React.js, Node.js, JavaScript, TypeScript, C#, .NET, Blazor, Python, Machine Learning, Java, PHP, Flask, Selenium, HTML & CSS and Open AI API, along with a good command of English with IELTS - 7.0. My hands on experience at M Data Zone and Alliance Finance Company has made me proficient in C#, .NET, React, NodeJS and databases, including MySQL, PostgreSQL, T-SQL, and MongoDB. Connect with me to learn more about how my skills can contribute to your team.\n\nConnect with me to learn more about how my skills can contribute to your team.\n\nBest Regards,\nAaroophan"
-			},
-			"Technologies": [
-				[
-					"Programming Languages",
-					[
-						[sql, "SQL"], [js, "JS"], [ts, "TS"], [cs, "C#"], [py, "Python"], [jav, "Java"], [php, "PHP"], [html, "HTML"], [css, "CSS"]
-					]
-				],
-				[
-					"Frameworks & Libraries",
-					[
-						[Exp, "Express.js"], [Rct, "React.js"], [njs, "Node.js"], [tjs, "Three.js"], [btstrp, "Bootstrap"], [fl, "Flask"], [sel, "Selenium"], [blz, "Blazor"], [dnt, ".NET"]
-					]
-				],
-				[
-					"Databases & Tools",
-					[
-						[sql, "SQL"], [msql, "MySQL"], [psql, "PostgreSQL"], [pga4, "PgAdmin4"], [dbvr, "DBeaver"], [nsql, "NoSQL"], [MDB, "MongoDB"], [fbs, "Firebase"], [ssms, "SSMS"], [ssis, "SSIS"], [ssrs, "SSRS"], [orcl, "Oracle"]
-					]
-				],
-				[
-					"Development Tools",
-					[
-						[vs, "Visual Studio"], [vsc, "VS Code"], [astd, "Android Studio"], [git, "GIT"], [gith, "GitHub"], [JIRA, "JIRA"], [trlo, "Trello"]
-					]
-				],
-				[
-					"Machine Learning",
-					[
-						[oai, "OpenAI"], [pyt, "PyTorch"], [hgfc, "HuggingFace"], [pnds, "Pandas"], [nmpy, "NumPy"], [nlp, "NLP"], [MacLear, "ML"]
-					]
-				],
-				[
-					"Design and Multimedia",
-					[
-						[ps, "PhotoShop"], [ai, "Illustrator"], [ae, "After Effects"], [may, "Maya"]
-					]
-				]
-			],
-			"Projects": [
-				{
-					"Image": AFCLOD,
-					"Name": "AFC’s LOD Web Application",
-					"Links": [],
-					"Date": "Jul 2024 - Jul 2024",
-					"Description": "Developed and implemented a new Letter of Demand (LOD) Web Application for Alliance Finance PLC’s LIME banking solution in just one day using the MERN Stack and PostgreSQL. This secondary MERN Stack application integrates with Lime’s MongoDB and Finacle’s PostgreSQL databases to generate LOD issued details. The Audit and Legal teams use it to input parameters and produce a comprehensive LOD posting list in PDF format for their daily tasks.",
-					"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, PostgreSQL, Bootstrap, Mongoose"
-				},
-				{
-					"Image": MT,
-					"Name": "Mend-Tale-Game",
-					"Links": [
-						{
-							"Name": "Link",
-							"Icon": "link",
-							"Href": "https://mend-tale-game.onrender.com/"
-						},
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/Mend-Tale-Game"
-						},
-						{
-							"Name": "Demo",
-							"Icon": "play-circle",
-							"Href": "https://mend-tale-game.onrender.com/"
-						}
-					],
-					"Date": "Dec 2023 - Apr 2024",
-					"Description": "The idea of MendTale is to develop a text-based adventure game website that analyses user's mood by utilizing machine learning and provide feedback through storytelling using Natural Language Processing to promote a sense of emotional-awareness among its users. By combining gaming, personal journaling, machine learning, and storytelling, users will be encouraged to interact with the platform regularly, turning this emotional-awareness promotion into an enjoyable and informative experience.",
-					"Technologies": "JavaScript, Python, MongoDB, ExpressJS, ReactJS, NodeJS, Flask, PyTorch, OpenAI, Bootstrap, Mongoose, GitHub"
-				},
-				{
-					"Image": Dom,
-					"Name": "CIS-Domeytoe-Game",
-					"Links": [
-						{
-							"Name": "Link",
-							"Icon": "link",
-							"Href": "https://cis-domeytoe-game.onrender.com/"
-						},
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/CIS-Domeytoe-Game"
-						},
-						{
-							"Name": "Demo",
-							"Icon": "play-circle",
-							"Href": "https://www.youtube.com/watch?v=Q0trwCC5dgE"
-						}
-					],
-					"Date": "Oct 2023 - Dec 2023",
-					"Description": "Developed the game 'Domeytoe' in MERN Stack to use the ‘Tomato’ API. This Computer Integrated Systems module assignment asks to reflect on various concepts, paradigms and architectures related to Software Development. Software design principles, event-driven programming, interoperability, and virtual identity.",
-					"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, Bootstrap, Mongoose, GitHub"
-				},
-				{
-					"Image": LD,
-					"Name": "LocDev",
-					"Links": [
-						{
-							"Name": "Link",
-							"Icon": "link",
-							"Href": "https://loc-dev-assessment.onrender.com/"
-						},
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/loc-dev-assessment"
-						}
-					],
-					"Date": "Apr 2024 - Apr 2024",
-					"Description": "This one day project manages locations that control multiple devices, with a REST service and user interfaces for storing and displaying information about these locations and their associated devices. All data is securely stored in a MongoDB database.",
-					"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, Bootstrap, Mongoose, GitHub"
-				},
-				{
-					"Image": ML,
-					"Name": "MovieList",
-					"Links": [
-						{
-							"Name": "Link",
-							"Icon": "link",
-							"Href": "https://3d2y-genin-com.stackstaging.com/"
-						}
-					],
-					"Date": "Jun 2023 - Jun 2023",
-					"Description": "Developed a movie database website as a project to enhance my ReactJS skills. The website includes various functions such as the Home Page, Movie Page, Series Page, Search, Theme, Sign in, Sign up, Watchlist, Watch History, Dashboard, Profile, Edit Profile.",
-					"Technologies": "HTML, JavaScript, CSS, SQL, PHP, VS Code, ReactJS, MySQL, phpMyAdmin, Bootstrap, GitHub"
-				},
-				{
-					"Image": EM,
-					"Name": "EveryMove",
-					"Links": [
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/NeroBrutal/EveryMoveApp"
-						}
-					],
-					"Date": "May 2023 - May 2023",
-					"Description": "Developed 'Progress' function of a fitness nutrition tracking android app for a gym's members as a group project for Higer Diploma in Information Technology. The Progress function combines progress tracking, chart visualization, data saving, and post management.",
-					"Technologies": "Java, XML, Studio, Firebase, GitHub"
-				},
-				{
-					"Image": BB,
-					"Name": "BaratieBakery",
-					"Links": [
-						{
-							"Name": "Link",
-							"Icon": "link",
-							"Href": "https://baratiebakery-asv.stackstaging.com/"
-						},
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/BaratieBakery"
-						}
-					],
-					"Date": "Nov 2022 - Dec 2022",
-					"Description": "Developed an e-commerce website for a model bakery as a project for Higher Diploma in Information Technology. The website includes various pages such as the Home Page, Product Page, Search, Sign in, Sign up, Cart, Checkout Bill, Order History, Dashboard, Profile, Edit Profile, Admin Product Page (with options to Edit, Delete, and set Availability, exclusive to administrators), and Admin Add Product.",
-					"Technologies": "HTML, CSS, JavaScript, jQuery, SQL, PHP, DreamWeaver, MySQL, phpMyAdmin, GitHub"
-				},
-				{
-					"Image": TD,
-					"Name": "2D Animation Short",
-					"Links": [
-						{
-							"Name": "Demo",
-							"Icon": "play-circle",
-							"Href": "https://www.youtube.com/watch?v=Q0trwCC5dgE"
-						}
-					],
-					"Date": "Nov 2022 - Nov 2022",
-					"Description": "This is a 2D animation short video I animated as a part for a group project for Interactive Design Concepts & Practices module for Higer Diploma in Information Technology.",
-					"Technologies": "Adobe Illustrator, After Effects"
-				},
-				{
-					"Image": TT,
-					"Name": "TimeTicker",
-					"Links": [
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/PaperClips"
-						}
-					],
-					"Date": "May 2022 - Jun 2022",
-					"Description": "Developed a Java Swing application for a watch sales and repair shop. Implemented features for managing watch sales invoices, watch repair jobs, spare parts, and part suppliers. Developed functionality for allocating employees to repair jobs and generating monthly income and expense reports. Integrated ability to send notifications to suppliers when parts are out of stock and to customers when repair job is completed via email.",
-					"Technologies": "Java, NetBeans IDE, MySQL, phpMyAdmin, GitHub"
-				}
-			],
-			"Experiences": [
-				{
-					"Image": MDZ,
-					"Title": "Associate Database Developer",
-					"Company": "M Data Zone (PVT) LTD",
-					"JobType": "Full-time",
-					"Location": "Colombo, Western Province, Sri Lanka",
-					"LocationType": "On-site",
-					"Date": "Mar 2025 - Present",
-					"Description": [
-						"Wrote efficient SQL queries, stored procedures, triggers, views & functions.",
-						"Troubleshot & resolved database-related issues promptly.",
-						"Developed & maintained documentation for database design & processes.",
-						"Define frontend requirements and implement changes using Blazor.",
-						"Enhanced backend operations & implemented functional requirements in .NET.",
-						"Managed Zendesk operations to ensure efficient customer support.",
-						"Performed manual testing for various projects.",
-						"Developed & implemented Selenium test scripts to automate testing scenarios.",
-						"Designed, developed & maintained a .NET app for running Selenium automation.",
-						"DWorked as integral part of teams & clients based in Canada, US and Sri Lanka."
-					]
-				},
-				{
-					"Image": MDZ,
-					"Title": "Junior Database Developer",
-					"Company": "M Data Zone (PVT) LTD",
-					"JobType": "Full-time",
-					"Location": "Colombo, Western Province, Sri Lanka",
-					"LocationType": "On-site",
-					"Date": "Sept 2024 - Mar 2025",
-					"Description": [
-						"Designed, developed, & maintained SQL databases for various applications.",
-						"Wrote efficient SQL queries, stored procedures, triggers, & functions.",
-						"Performed database tuning & optimization to maximize performance.",
-						"Collaborated with teams to gather requirements & design database architecture.",
-						"Troubleshot & resolved database-related issues promptly.",
-						"Ensured data integrity, security, & compliance with industry best practices.",
-						"Developed & maintained documentation for database design & processes."
-					]
-				},
-				{
-					"Image": AFC,
-					"Title": "Intern Software Engineer",
-					"Company": "Alliance Finance Company PLC",
-					"JobType": "Internship",
-					"Location": "Colombo, Western Province, Sri Lanka",
-					"LocationType": "On-site",
-					"Date": "Nov 2023 - Sep 2024",
-					"Description": [
-						"Created a MERN Stack application for Audit and Legal teams' Report Generation tasks using Lime’s MongoDB and Finacle's PostgreSQL databases.",
-						"Ensured data integrity by writing PostgreSQL scripts to validate backend data from Finacle against inbank databases.",
-						"Used MongoDB queries to check frontend data from Lime against logical workflows.",
-						"Manually tested Lime workflows related to Customers, Savings, and FDs, maintaining test environment records.",
-						"Analyzed requirements and wrote test cases for Lime workflows, both new and predefined to detect usability and performance issues.",
-						"Identified, documented, and reported bugs in Lime and Finacle via Jira. Regression tests ensured workflows still functioned correctly after system changes.",
-						"Created a sanction list for better security and prepared a user manual with screenshots for maintaining it. Collaborated with the Legal and Compliance Team on Lime Risk Score setups for security.",
-						"Conducted UAT training sessions and provided ongoing support afterward for AFC Branches, validating system functionalities from a user perspective."
-					]
-				}
-			],
-			"Educations": [
-				{
-					"Image": UoB,
-					"Name": "University of Bedfordshire",
-					"Title": "B.Sc. Computer Science & Software Engineering",
-					"Date": "Sep 2023 - May 2024",
-					"Description": [
-						"Second Class Upper"
-					]
-				},
-				{
-					"Image": SCU,
-					"Name": "SLIIT City UNI",
-					"Title": "Higher Diploma in Information Technology",
-					"Date": "May 2021 - Jun 2023",
-					"Description": [
-						"Dean's List Award"
-					]
-				},
-				{
-					"Image": SMC,
-					"Name": "St. Michael's College",
-					"Title": "High School",
-					"Date": "Jan 2006 - Aug 2019",
-					"Description": []
-				}
-			],
-			"Certificates": [
-				{
-					"Image": LI,
-					"Name": "React.js Essential Training",
-					"Provider": "LinkedIn",
-					"Date": "April 2024",
-					"Credential": {
-						"Name": "Credentials",
-						"Link": "https://www.linkedin.com/learning/certificates/3038b37db3e540121618f1491e8e45dd13045f4aceb338edaa7dc3e7eda81209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BoQk0iw1VRhaF8L3eBhz2Pg%3D%3D"
-					}
-				},
-				{
-					"Image": Ude,
-					"Name": "The Complete Web Developer Course 3.0",
-					"Provider": "Udemy",
-					"Date": "June 2024",
-					"Credential": {
-						"Name": "Credential ID UC-eabc6eeb-8218-44ee-b2c2-8681596c8e21",
-						"Link": "https://www.udemy.com/certificate/UC-eabc6eeb-8218-44ee-b2c2-8681596c8e21/"
-					}
-				},
-				{
-					"Image": BC,
-					"Name": "IELTS Academic - 7.0",
-					"Provider": "British Council",
-					"Date": "Mar 2023",
-					"Credential": {
-						"Name": "Credential ID 22LK028258VARA001A",
-						"Link": "#"
-					}
-				},
-			],
-			"References": [
-				{
-					"Name": "Lasintha Ferdinando",
-					"Education": "FCMA (UK), FIB (SL), MBA (UOC), CCM (FASEC), CGMA, GSLID MSc - IT & Strategic innovation (UK)",
-					"Job": "Managing Director",
-					"Company": "JKSE Consultants",
-					"Phone": "+94 77 759 0523",
-					"Email": "lasintha@jkseconsultants.com",
-				},
-				{
-					"Name": "Aruni Samaraweera",
-					"Education": null,
-					"Job": "Project Manager",
-					"Company": "Alliance Finance Company PLC",
-					"Phone": "+94 77 477 3665",
-					"Email": "aruni@alliancefinance.lk",
-				},
-			]
-		};
+		// let UserData = {
+		// 	"Main": {
+		// 		"Image": "/static/media/Aaroophan - Portrait - 2024.3351919793e2eb5fbd8b.jpg",
+		// 		"Greeting" : "Hi, I'm",
+		// 		"Name": "Aaroophan Varatharajan",
+		// 		"Tags": [
+		// 			// "Full Stack Developer",
+		// 			// "Associate Database Developer",
+		// 			"Animation Enthusiast",
+		// 			"Full Stack Developer",
+		// 			"Associate Database Developer",
+		// 			"Agile Team Player",
+		// 			"React, Node, C#, .NET, SQL, PostgreSQL",
+		// 			"MERN Stack Enthusiast"
+		// 		],
+		// 		"Links" : [
+		// 			{
+		// 				"Name": "Instagram",
+		// 				"Icon": "instagram",
+		// 				"Href": "https://www.instagram.com/aaroophan/?theme=dark"
+		// 			},
+		// 			{
+		// 				"Name": "LinkedIn",
+		// 				"Icon": "linkedin",
+		// 				"Href": "https://www.linkedin.com/in/aaroophan/"
+		// 			},
+		// 			{
+		// 				"Name": "GitHub",
+		// 				"Icon": "github",
+		// 				"Href": "https://github.com/R-U-Fun"
+		// 			},
+		// 			{
+		// 				"Name": "Email",
+		// 				"Icon": "envelope-fill",
+		// 				"Href": "mailto:arophn@gmail.com"
+		// 			},
+		// 			{
+		// 				"Name": "Phone",
+		// 				"Icon": "telephone-fill",
+		// 				"Href": "tel:+94768505131"
+		// 			},
+		// 			{
+		// 				"Name": "Resume",
+		// 				"Icon": "file-person-fill",
+		// 				"Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
+		// 			}
+		// 		],
+		// 		"Backgrounds": [
+		// 			BG_E1,
+		// 			BG_E2,
+		// 			BG_E3,
+		// 			BG_E4,
+		// 			BG_E5,
+		// 			BG_E6,
+		// 			BG_E7,
+		// 			BG_E8,
+		// 			BG_E9
+		// 		],
+		// 		"Images": [
+		// 			Profile_1,
+		// 			Profile_2
+		// 		]
+		// 	},
+		// 	"About": {
+		// 		"ThreeDeeObj": Man3d,
+		// 		"Description": "Hello,\n\nI am Aaroophan Varatharajan, a Computer Science and Software Engineering graduate from SLIIT City Uni, affiliated with the University of Bedfordshire, UK, with a Second-Class Upper degree and a Higher Diploma in IT. I was recognized on the Dean’s List. I am working as an Associate Database Developer at M Data Zone (Colombo, Sri Lanka) after being promoted from my previous role as Junior Database Developer since September 2024. I have expertise in software development because, my interest is in it, and I have completed several projects, with a strong command of SQL, React.js, Node.js, JavaScript, TypeScript, C#, .NET, Blazor, Python, Machine Learning, Java, PHP, Flask, Selenium, HTML & CSS and Open AI API, along with a good command of English with IELTS - 7.0. My hands on experience at M Data Zone and Alliance Finance Company has made me proficient in C#, .NET, React, NodeJS and databases, including MySQL, PostgreSQL, T-SQL, and MongoDB. Connect with me to learn more about how my skills can contribute to your team.\n\nConnect with me to learn more about how my skills can contribute to your team.\n\nBest Regards,\nAaroophan"
+		// 	},
+		// 	"Technologies": [
+		// 		[
+		// 			"Programming Languages",
+		// 			[
+		// 				[sql, "SQL"], [js, "JS"], [ts, "TS"], [cs, "C#"], [py, "Python"], [jav, "Java"], [php, "PHP"], [html, "HTML"], [css, "CSS"]
+		// 			]
+		// 		],
+		// 		[
+		// 			"Frameworks & Libraries",
+		// 			[
+		// 				[Exp, "Express.js"], [Rct, "React.js"], [njs, "Node.js"], [tjs, "Three.js"], [btstrp, "Bootstrap"], [fl, "Flask"], [sel, "Selenium"], [blz, "Blazor"], [dnt, ".NET"]
+		// 			]
+		// 		],
+		// 		[
+		// 			"Databases & Tools",
+		// 			[
+		// 				[sql, "SQL"], [msql, "MySQL"], [psql, "PostgreSQL"], [pga4, "PgAdmin4"], [dbvr, "DBeaver"], [nsql, "NoSQL"], [MDB, "MongoDB"], [fbs, "Firebase"], [ssms, "SSMS"], [ssis, "SSIS"], [ssrs, "SSRS"], [orcl, "Oracle"]
+		// 			]
+		// 		],
+		// 		[
+		// 			"Development Tools",
+		// 			[
+		// 				[vs, "Visual Studio"], [vsc, "VS Code"], [astd, "Android Studio"], [git, "GIT"], [gith, "GitHub"], [JIRA, "JIRA"], [trlo, "Trello"]
+		// 			]
+		// 		],
+		// 		[
+		// 			"Machine Learning",
+		// 			[
+		// 				[oai, "OpenAI"], [pyt, "PyTorch"], [hgfc, "HuggingFace"], [pnds, "Pandas"], [nmpy, "NumPy"], [nlp, "NLP"], [MacLear, "ML"]
+		// 			]
+		// 		],
+		// 		[
+		// 			"Design and Multimedia",
+		// 			[
+		// 				[ps, "PhotoShop"], [ai, "Illustrator"], [ae, "After Effects"], [may, "Maya"]
+		// 			]
+		// 		]
+		// 	],
+		// 	"Projects": [
+		// 		{
+		// 			"Image": AFCLOD,
+		// 			"Name": "AFC’s LOD Web Application",
+		// 			"Links": [],
+		// 			"Date": "Jul 2024 - Jul 2024",
+		// 			"Description": "Developed and implemented a new Letter of Demand (LOD) Web Application for Alliance Finance PLC’s LIME banking solution in just one day using the MERN Stack and PostgreSQL. This secondary MERN Stack application integrates with Lime’s MongoDB and Finacle’s PostgreSQL databases to generate LOD issued details. The Audit and Legal teams use it to input parameters and produce a comprehensive LOD posting list in PDF format for their daily tasks.",
+		// 			"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, PostgreSQL, Bootstrap, Mongoose"
+		// 		},
+		// 		{
+		// 			"Image": MT,
+		// 			"Name": "Mend-Tale-Game",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Link",
+		// 					"Icon": "link",
+		// 					"Href": "https://mend-tale-game.onrender.com/"
+		// 				},
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/R-U-Fun/Mend-Tale-Game"
+		// 				},
+		// 				{
+		// 					"Name": "Demo",
+		// 					"Icon": "play-circle",
+		// 					"Href": "https://mend-tale-game.onrender.com/"
+		// 				}
+		// 			],
+		// 			"Date": "Dec 2023 - Apr 2024",
+		// 			"Description": "The idea of MendTale is to develop a text-based adventure game website that analyses user's mood by utilizing machine learning and provide feedback through storytelling using Natural Language Processing to promote a sense of emotional-awareness among its users. By combining gaming, personal journaling, machine learning, and storytelling, users will be encouraged to interact with the platform regularly, turning this emotional-awareness promotion into an enjoyable and informative experience.",
+		// 			"Technologies": "JavaScript, Python, MongoDB, ExpressJS, ReactJS, NodeJS, Flask, PyTorch, OpenAI, Bootstrap, Mongoose, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": Dom,
+		// 			"Name": "CIS-Domeytoe-Game",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Link",
+		// 					"Icon": "link",
+		// 					"Href": "https://cis-domeytoe-game.onrender.com/"
+		// 				},
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/R-U-Fun/CIS-Domeytoe-Game"
+		// 				},
+		// 				{
+		// 					"Name": "Demo",
+		// 					"Icon": "play-circle",
+		// 					"Href": "https://www.youtube.com/watch?v=Q0trwCC5dgE"
+		// 				}
+		// 			],
+		// 			"Date": "Oct 2023 - Dec 2023",
+		// 			"Description": "Developed the game 'Domeytoe' in MERN Stack to use the ‘Tomato’ API. This Computer Integrated Systems module assignment asks to reflect on various concepts, paradigms and architectures related to Software Development. Software design principles, event-driven programming, interoperability, and virtual identity.",
+		// 			"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, Bootstrap, Mongoose, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": LD,
+		// 			"Name": "LocDev",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Link",
+		// 					"Icon": "link",
+		// 					"Href": "https://loc-dev-assessment.onrender.com/"
+		// 				},
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/R-U-Fun/loc-dev-assessment"
+		// 				}
+		// 			],
+		// 			"Date": "Apr 2024 - Apr 2024",
+		// 			"Description": "This one day project manages locations that control multiple devices, with a REST service and user interfaces for storing and displaying information about these locations and their associated devices. All data is securely stored in a MongoDB database.",
+		// 			"Technologies": "JavaScript, MongoDB, ExpressJS, ReactJS, NodeJS, Bootstrap, Mongoose, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": ML,
+		// 			"Name": "MovieList",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Link",
+		// 					"Icon": "link",
+		// 					"Href": "https://3d2y-genin-com.stackstaging.com/"
+		// 				}
+		// 			],
+		// 			"Date": "Jun 2023 - Jun 2023",
+		// 			"Description": "Developed a movie database website as a project to enhance my ReactJS skills. The website includes various functions such as the Home Page, Movie Page, Series Page, Search, Theme, Sign in, Sign up, Watchlist, Watch History, Dashboard, Profile, Edit Profile.",
+		// 			"Technologies": "HTML, JavaScript, CSS, SQL, PHP, VS Code, ReactJS, MySQL, phpMyAdmin, Bootstrap, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": EM,
+		// 			"Name": "EveryMove",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/NeroBrutal/EveryMoveApp"
+		// 				}
+		// 			],
+		// 			"Date": "May 2023 - May 2023",
+		// 			"Description": "Developed 'Progress' function of a fitness nutrition tracking android app for a gym's members as a group project for Higer Diploma in Information Technology. The Progress function combines progress tracking, chart visualization, data saving, and post management.",
+		// 			"Technologies": "Java, XML, Studio, Firebase, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": BB,
+		// 			"Name": "BaratieBakery",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Link",
+		// 					"Icon": "link",
+		// 					"Href": "https://baratiebakery-asv.stackstaging.com/"
+		// 				},
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/R-U-Fun/BaratieBakery"
+		// 				}
+		// 			],
+		// 			"Date": "Nov 2022 - Dec 2022",
+		// 			"Description": "Developed an e-commerce website for a model bakery as a project for Higher Diploma in Information Technology. The website includes various pages such as the Home Page, Product Page, Search, Sign in, Sign up, Cart, Checkout Bill, Order History, Dashboard, Profile, Edit Profile, Admin Product Page (with options to Edit, Delete, and set Availability, exclusive to administrators), and Admin Add Product.",
+		// 			"Technologies": "HTML, CSS, JavaScript, jQuery, SQL, PHP, DreamWeaver, MySQL, phpMyAdmin, GitHub"
+		// 		},
+		// 		{
+		// 			"Image": TD,
+		// 			"Name": "2D Animation Short",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "Demo",
+		// 					"Icon": "play-circle",
+		// 					"Href": "https://www.youtube.com/watch?v=Q0trwCC5dgE"
+		// 				}
+		// 			],
+		// 			"Date": "Nov 2022 - Nov 2022",
+		// 			"Description": "This is a 2D animation short video I animated as a part for a group project for Interactive Design Concepts & Practices module for Higer Diploma in Information Technology.",
+		// 			"Technologies": "Adobe Illustrator, After Effects"
+		// 		},
+		// 		{
+		// 			"Image": TT,
+		// 			"Name": "TimeTicker",
+		// 			"Links": [
+		// 				{
+		// 					"Name": "GitHub",
+		// 					"Icon": "github",
+		// 					"Href": "https://github.com/R-U-Fun/PaperClips"
+		// 				}
+		// 			],
+		// 			"Date": "May 2022 - Jun 2022",
+		// 			"Description": "Developed a Java Swing application for a watch sales and repair shop. Implemented features for managing watch sales invoices, watch repair jobs, spare parts, and part suppliers. Developed functionality for allocating employees to repair jobs and generating monthly income and expense reports. Integrated ability to send notifications to suppliers when parts are out of stock and to customers when repair job is completed via email.",
+		// 			"Technologies": "Java, NetBeans IDE, MySQL, phpMyAdmin, GitHub"
+		// 		}
+		// 	],
+		// 	"Experiences": [
+		// 		{
+		// 			"Image": MDZ,
+		// 			"Title": "Associate Database Developer",
+		// 			"Company": "M Data Zone (PVT) LTD",
+		// 			"JobType": "Full-time",
+		// 			"Location": "Colombo, Western Province, Sri Lanka",
+		// 			"LocationType": "On-site",
+		// 			"Date": "Mar 2025 - Present",
+		// 			"Description": [
+		// 				"Wrote efficient SQL queries, stored procedures, triggers, views & functions.",
+		// 				"Troubleshot & resolved database-related issues promptly.",
+		// 				"Developed & maintained documentation for database design & processes.",
+		// 				"Define frontend requirements and implement changes using Blazor.",
+		// 				"Enhanced backend operations & implemented functional requirements in .NET.",
+		// 				"Managed Zendesk operations to ensure efficient customer support.",
+		// 				"Performed manual testing for various projects.",
+		// 				"Developed & implemented Selenium test scripts to automate testing scenarios.",
+		// 				"Designed, developed & maintained a .NET app for running Selenium automation.",
+		// 				"DWorked as integral part of teams & clients based in Canada, US and Sri Lanka."
+		// 			]
+		// 		},
+		// 		{
+		// 			"Image": MDZ,
+		// 			"Title": "Junior Database Developer",
+		// 			"Company": "M Data Zone (PVT) LTD",
+		// 			"JobType": "Full-time",
+		// 			"Location": "Colombo, Western Province, Sri Lanka",
+		// 			"LocationType": "On-site",
+		// 			"Date": "Sept 2024 - Mar 2025",
+		// 			"Description": [
+		// 				"Designed, developed, & maintained SQL databases for various applications.",
+		// 				"Wrote efficient SQL queries, stored procedures, triggers, & functions.",
+		// 				"Performed database tuning & optimization to maximize performance.",
+		// 				"Collaborated with teams to gather requirements & design database architecture.",
+		// 				"Troubleshot & resolved database-related issues promptly.",
+		// 				"Ensured data integrity, security, & compliance with industry best practices.",
+		// 				"Developed & maintained documentation for database design & processes."
+		// 			]
+		// 		},
+		// 		{
+		// 			"Image": AFC,
+		// 			"Title": "Intern Software Engineer",
+		// 			"Company": "Alliance Finance Company PLC",
+		// 			"JobType": "Internship",
+		// 			"Location": "Colombo, Western Province, Sri Lanka",
+		// 			"LocationType": "On-site",
+		// 			"Date": "Nov 2023 - Sep 2024",
+		// 			"Description": [
+		// 				"Created a MERN Stack application for Audit and Legal teams' Report Generation tasks using Lime’s MongoDB and Finacle's PostgreSQL databases.",
+		// 				"Ensured data integrity by writing PostgreSQL scripts to validate backend data from Finacle against inbank databases.",
+		// 				"Used MongoDB queries to check frontend data from Lime against logical workflows.",
+		// 				"Manually tested Lime workflows related to Customers, Savings, and FDs, maintaining test environment records.",
+		// 				"Analyzed requirements and wrote test cases for Lime workflows, both new and predefined to detect usability and performance issues.",
+		// 				"Identified, documented, and reported bugs in Lime and Finacle via Jira. Regression tests ensured workflows still functioned correctly after system changes.",
+		// 				"Created a sanction list for better security and prepared a user manual with screenshots for maintaining it. Collaborated with the Legal and Compliance Team on Lime Risk Score setups for security.",
+		// 				"Conducted UAT training sessions and provided ongoing support afterward for AFC Branches, validating system functionalities from a user perspective."
+		// 			]
+		// 		}
+		// 	],
+		// 	"Educations": [
+		// 		{
+		// 			"Image": UoB,
+		// 			"Name": "University of Bedfordshire",
+		// 			"Title": "B.Sc. Computer Science & Software Engineering",
+		// 			"Date": "Sep 2023 - May 2024",
+		// 			"Description": [
+		// 				"Second Class Upper"
+		// 			]
+		// 		},
+		// 		{
+		// 			"Image": SCU,
+		// 			"Name": "SLIIT City UNI",
+		// 			"Title": "Higher Diploma in Information Technology",
+		// 			"Date": "May 2021 - Jun 2023",
+		// 			"Description": [
+		// 				"Dean's List Award"
+		// 			]
+		// 		},
+		// 		{
+		// 			"Image": SMC,
+		// 			"Name": "St. Michael's College",
+		// 			"Title": "High School",
+		// 			"Date": "Jan 2006 - Aug 2019",
+		// 			"Description": []
+		// 		}
+		// 	],
+		// 	"Certificates": [
+		// 		{
+		// 			"Image": LI,
+		// 			"Name": "React.js Essential Training",
+		// 			"Provider": "LinkedIn",
+		// 			"Date": "April 2024",
+		// 			"Credential": {
+		// 				"Name": "Credentials",
+		// 				"Link": "https://www.linkedin.com/learning/certificates/3038b37db3e540121618f1491e8e45dd13045f4aceb338edaa7dc3e7eda81209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BoQk0iw1VRhaF8L3eBhz2Pg%3D%3D"
+		// 			}
+		// 		},
+		// 		{
+		// 			"Image": Ude,
+		// 			"Name": "The Complete Web Developer Course 3.0",
+		// 			"Provider": "Udemy",
+		// 			"Date": "June 2024",
+		// 			"Credential": {
+		// 				"Name": "Credential ID UC-eabc6eeb-8218-44ee-b2c2-8681596c8e21",
+		// 				"Link": "https://www.udemy.com/certificate/UC-eabc6eeb-8218-44ee-b2c2-8681596c8e21/"
+		// 			}
+		// 		},
+		// 		{
+		// 			"Image": BC,
+		// 			"Name": "IELTS Academic - 7.0",
+		// 			"Provider": "British Council",
+		// 			"Date": "Mar 2023",
+		// 			"Credential": {
+		// 				"Name": "Credential ID 22LK028258VARA001A",
+		// 				"Link": "#"
+		// 			}
+		// 		},
+		// 	],
+		// 	"References": [
+		// 		{
+		// 			"Name": "Lasintha Ferdinando",
+		// 			"Education": "FCMA (UK), FIB (SL), MBA (UOC), CCM (FASEC), CGMA, GSLID MSc - IT & Strategic innovation (UK)",
+		// 			"Job": "Managing Director",
+		// 			"Company": "JKSE Consultants",
+		// 			"Phone": "+94 77 759 0523",
+		// 			"Email": "lasintha@jkseconsultants.com",
+		// 		},
+		// 		{
+		// 			"Name": "Aruni Samaraweera",
+		// 			"Education": null,
+		// 			"Job": "Project Manager",
+		// 			"Company": "Alliance Finance Company PLC",
+		// 			"Phone": "+94 77 477 3665",
+		// 			"Email": "aruni@alliancefinance.lk",
+		// 		},
+		// 	]
+		// };
 
-		UserData = {
+		let UserData = {
   "Main": {
     "Image": "/static/media/Aaroophan - Portrait - 2024.3351919793e2eb5fbd8b.jpg",
     "Greeting": "Hi, I'm",
@@ -611,7 +611,7 @@ class Server {
       {
         "Name": "Resume",
         "Icon": "file-person-fill",
-        "Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
+        "Href": "https://drive.google.com/file/d/12MG7Wg_VBgnbUzlsVtpnBxIRaLVlzMim/view?usp=sharing"
       }
     ],
     "Backgrounds": [
@@ -1159,129 +1159,129 @@ class Server {
 		return UserData;
 	}
 
-	Dummy(){
-		let UserData = {
-			"Main": {
-				"Image": Photo,
-				"Greeting" : "Hi, I'm",
-				"Name": "Dummy",
-				"Tags": [
-					// "Full Stack Developer",
-					// "Associate Database Developer",
-					"Dummy"
-				],
-				"Links" : [
-					{
-						"Name": "Instagram",
-						"Icon": "instagram",
-						"Href": "https://www.instagram.com/aaroophan/?theme=dark"
-					},
-					{
-						"Name": "LinkedIn",
-						"Icon": "linkedin",
-						"Href": "https://www.linkedin.com/in/aaroophan/"
-					},
-					{
-						"Name": "GitHub",
-						"Icon": "github",
-						"Href": "https://github.com/R-U-Fun"
-					},
-					{
-						"Name": "Email",
-						"Icon": "envelope-fill",
-						"Href": "mailto:arophn@gmail.com"
-					},
-					{
-						"Name": "Phone",
-						"Icon": "telephone-fill",
-						"Href": "tel:+94768505131"
-					},
-					{
-						"Name": "Resume",
-						"Icon": "file-person-fill",
-						"Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
-					}
-				]
-			},
-			"About": {
-				"ThreeDeeObj": Man3d,
-				"Description": "Dummy"
-			},
-			"Technologies": [
-				[
-					"Dummy",
-					[
-						[ps, "Dummy"]
-					]
-				]
-			],
-			"Projects": [
-				{
-					"Image": TT,
-					"Name": "Dummy",
-					"Links": [
-						{
-							"Name": "GitHub",
-							"Icon": "github",
-							"Href": "https://github.com/R-U-Fun/PaperClips"
-						}
-					],
-					"Date": "Dummy",
-					"Description": "Dummy",
-					"Technologies": "Dummy"
-				}
-			],
-			"Experiences": [
-				{
-					"Image": MDZ,
-					"Title": "Dummy",
-					"Company": "Dummy",
-					"JobType": "FDummy",
-					"Location": "Dummy",
-					"LocationType": "Dummy",
-					"Date": "Dummy",
-					"Description": [
-						"Dummy"
-					]
-				}
-			],
-			"Educations": [
-				{
-					"Image": UoB,
-					"Name": "Dummy",
-					"Title": "Dummy",
-					"Date": "Dummy",
-					"Description": [
-						"Dummy"
-					]
-				}
-			],
-			"Certificates": [
-				{
-					"Image": LI,
-					"Name": "Dummy",
-					"Provider": "Dummy",
-					"Date": "Dummy",
-					"Credential": {
-						"Name": "Credentials",
-						"Link": "https://www.linkedin.com/learning/certificates/3038b37db3e540121618f1491e8e45dd13045f4aceb338edaa7dc3e7eda81209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BoQk0iw1VRhaF8L3eBhz2Pg%3D%3D"
-					}
-				}
-			],
-			"References": [
-				{
-					"Name": "Dummy",
-					"Education": "Dummy",
-					"Job": "Dummy",
-					"Company": "Dummy",
-					"Phone": "Dummy",
-					"Email": "Dummy",
-				}
-			]
-		};
+	// Dummy(){
+	// 	let UserData = {
+	// 		"Main": {
+	// 			"Image": Photo,
+	// 			"Greeting" : "Hi, I'm",
+	// 			"Name": "Dummy",
+	// 			"Tags": [
+	// 				// "Full Stack Developer",
+	// 				// "Associate Database Developer",
+	// 				"Dummy"
+	// 			],
+	// 			"Links" : [
+	// 				{
+	// 					"Name": "Instagram",
+	// 					"Icon": "instagram",
+	// 					"Href": "https://www.instagram.com/aaroophan/?theme=dark"
+	// 				},
+	// 				{
+	// 					"Name": "LinkedIn",
+	// 					"Icon": "linkedin",
+	// 					"Href": "https://www.linkedin.com/in/aaroophan/"
+	// 				},
+	// 				{
+	// 					"Name": "GitHub",
+	// 					"Icon": "github",
+	// 					"Href": "https://github.com/R-U-Fun"
+	// 				},
+	// 				{
+	// 					"Name": "Email",
+	// 					"Icon": "envelope-fill",
+	// 					"Href": "mailto:arophn@gmail.com"
+	// 				},
+	// 				{
+	// 					"Name": "Phone",
+	// 					"Icon": "telephone-fill",
+	// 					"Href": "tel:+94768505131"
+	// 				},
+	// 				{
+	// 					"Name": "Resume",
+	// 					"Icon": "file-person-fill",
+	// 					"Href": "https://drive.google.com/file/d/1LC6yuv_kAXU-yx5zh3ZwdYpWxBaQyYmP/view?usp=sharing"
+	// 				}
+	// 			]
+	// 		},
+	// 		"About": {
+	// 			"ThreeDeeObj": Man3d,
+	// 			"Description": "Dummy"
+	// 		},
+	// 		"Technologies": [
+	// 			[
+	// 				"Dummy",
+	// 				[
+	// 					[ps, "Dummy"]
+	// 				]
+	// 			]
+	// 		],
+	// 		"Projects": [
+	// 			{
+	// 				"Image": TT,
+	// 				"Name": "Dummy",
+	// 				"Links": [
+	// 					{
+	// 						"Name": "GitHub",
+	// 						"Icon": "github",
+	// 						"Href": "https://github.com/R-U-Fun/PaperClips"
+	// 					}
+	// 				],
+	// 				"Date": "Dummy",
+	// 				"Description": "Dummy",
+	// 				"Technologies": "Dummy"
+	// 			}
+	// 		],
+	// 		"Experiences": [
+	// 			{
+	// 				"Image": MDZ,
+	// 				"Title": "Dummy",
+	// 				"Company": "Dummy",
+	// 				"JobType": "FDummy",
+	// 				"Location": "Dummy",
+	// 				"LocationType": "Dummy",
+	// 				"Date": "Dummy",
+	// 				"Description": [
+	// 					"Dummy"
+	// 				]
+	// 			}
+	// 		],
+	// 		"Educations": [
+	// 			{
+	// 				"Image": UoB,
+	// 				"Name": "Dummy",
+	// 				"Title": "Dummy",
+	// 				"Date": "Dummy",
+	// 				"Description": [
+	// 					"Dummy"
+	// 				]
+	// 			}
+	// 		],
+	// 		"Certificates": [
+	// 			{
+	// 				"Image": LI,
+	// 				"Name": "Dummy",
+	// 				"Provider": "Dummy",
+	// 				"Date": "Dummy",
+	// 				"Credential": {
+	// 					"Name": "Credentials",
+	// 					"Link": "https://www.linkedin.com/learning/certificates/3038b37db3e540121618f1491e8e45dd13045f4aceb338edaa7dc3e7eda81209?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BoQk0iw1VRhaF8L3eBhz2Pg%3D%3D"
+	// 				}
+	// 			}
+	// 		],
+	// 		"References": [
+	// 			{
+	// 				"Name": "Dummy",
+	// 				"Education": "Dummy",
+	// 				"Job": "Dummy",
+	// 				"Company": "Dummy",
+	// 				"Phone": "Dummy",
+	// 				"Email": "Dummy",
+	// 			}
+	// 		]
+	// 	};
 		
-		return UserData;
-	}
+	// 	return UserData;
+	// }
 }
 
 const ServerURL = new Server();

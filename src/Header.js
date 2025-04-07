@@ -11,15 +11,15 @@ import Data from './Data';
 import BackgroundSingleton from './BackgroundSingleton';
 import ServerURL from './ServerURL';
 
-import BG_E1 from "./Images/BG_E1.png"
-import BG_E2 from "./Images/BG_E2.png"
-import BG_E3 from "./Images/BG_E3.png"
-import BG_E4 from "./Images/BG_E4.png"
-import BG_E5 from "./Images/BG_E5.png"
-import BG_E6 from "./Images/BG_E6.png"
-import BG_E7 from "./Images/BG_E7.png"
-import BG_E8 from "./Images/BG_E8.png"
-import BG_E9 from "./Images/BG_E9.png"
+// import BG_E1 from "./Images/BG_E1.png"
+// import BG_E2 from "./Images/BG_E2.png"
+// import BG_E3 from "./Images/BG_E3.png"
+// import BG_E4 from "./Images/BG_E4.png"
+// import BG_E5 from "./Images/BG_E5.png"
+// import BG_E6 from "./Images/BG_E6.png"
+// import BG_E7 from "./Images/BG_E7.png"
+// import BG_E8 from "./Images/BG_E8.png"
+// import BG_E9 from "./Images/BG_E9.png"
 
 import Footer from './Footer';
 
@@ -100,7 +100,7 @@ export default function Header(){
             setCurrentTagIndex((prevIndex) => 
                 (prevIndex + 1) % ServerURL.Data().Main.Backgrounds.length
             );
-        }, 8000);
+        }, 15000);
 
         return () => clearInterval(interval);
     }, []);
@@ -179,14 +179,15 @@ export default function Header(){
     // <div className={`bg-${BackgroundSingleton.getBackground()} progress-bar-striped`} style={{fontFamily: 'Comic Sans MS', transition: 'all 1s ease-out', cursor: "default", backgroundImage: `url(${ServerURL.Data().Main.Image})`, backgroundSize: 'cover'}}>
     return(
         <>
+
     <div className={``} style={{
                             position: 'fixed',
                             top: 0, left: 0, right: 0, bottom: 0,
                             backgroundImage: `url(${ServerURL.Data().Main.Backgrounds[currentTagIndex]})`,
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
-                            backgroundPosition: 'center',
-                            filter: 'brightness(90%)',
+                            backgroundPosition: 'left',
+                            filter: window.innerWidth < 1000 ? 'blur(5px) brightness(80%)' : 'brightness(90%)',
                             zIndex: 0
                         }}>
     </div>

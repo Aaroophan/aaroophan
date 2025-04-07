@@ -9,7 +9,7 @@ export default function Footer(){
             <div className="container">
                 <hr className="text-light"/>
                 <div className="text-center">
-                    <a href="http://aaroophan-com.stackstaging.com/" className="text-secondary text-decoration-none">&copy; 2024 | <img src="https://lh3.googleusercontent.com/a/ACg8ocKNRvtI3cvci9DHfzBfC3d0PgPneG86fZv7w5se1U5mfBgcNqXj4g=s83-c-mo" height="20px" className="rounded-5"/> Aaroophan</a>
+                    <a href="http://aaroophan.onrender.com/" className="text-secondary text-decoration-none">&copy; 2025 | <img src="https://lh3.googleusercontent.com/a/ACg8ocKNRvtI3cvci9DHfzBfC3d0PgPneG86fZv7w5se1U5mfBgcNqXj4g=s83-c-mo" height="20px" className="rounded-5"/> Aaroophan</a>
                     <br/>
                     <ul className="list-inline">
                         <li className="list-inline-item"><a className="text-secondary text-decoration-none" href="https://www.instagram.com/aaroophan/?theme=dark"><i className="bi bi-instagram"></i></a></li>
