@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<!-- ==================== DYNAMIC HEADER ==================== -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F728&width=435&lines=Hi+👋+I'm+Aaroophan;Full+Stack+Developer⚡)](https://git.io/typing-svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Profile Views](https://komarev.com/ghpvc/?username=R-U-Fun&style=flat-square&color=blue)
 
-## Available Scripts
+<!-- ==================== AUTOMATED STATS ==================== -->
+## 📊 GitHub Analytics
 
-In the project directory, you can run:
+[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=R-U-Fun&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
-### `npm start`
+[![GitHub Streak](https://streak-stats.demolab.com?user=R-U-Fun&theme=dark)](https://git.io/streak-stats)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=R-U-Fun&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ==================== SNAKE ANIMATION ==================== -->
+## 🐍 Contribution Snake 
+<div align="center">
+  <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" style="max-width: 100%;">
+</div>
 
-### `npm test`
+<!-- ==================== AUTOMATED ACTIVITY ==================== -->
+## 📅 Recent Activity
+<!--START_SECTION:activity-->
+<!-- This section will auto-update with your actual activity -->
+1. 🎉 Merged PR [#23](https://github.com/R-U-Fun/R-U-Fun/pull/23) in [profile-repo](https://github.com/R-U-Fun/R-U-Fun)
+2. 🚀 Published release [v1.0.0](https://github.com/R-U-Fun/R-U-Fun/releases/tag/v1.0.0)
+3. 💪 Opened PR [#24](https://github.com/R-U-Fun/R-U-Fun/pull/24) in [profile-repo](https://github.com/R-U-Fun/R-U-Fun)
+<!--END_SECTION:activity-->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤖 Random Dev Joke
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark)
