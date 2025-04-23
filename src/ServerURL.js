@@ -1024,17 +1024,17 @@ class Server {
       "LocationType": "On-site",
       "Date": "Mar 2025 - Present",
       "Description": [
-        "Wrote efficient SQL queries, stored procedures, triggers, views & functions.",
-        "Troubleshot & resolved database-related issues promptly.",
-        "Developed & maintained documentation for database design & processes.",
-        "Define frontend requirements and implement changes using Blazor.",
-        "Enhanced backend operations & implemented functional requirements in .NET.",
-        "Managed Zendesk operations to ensure efficient customer support.",
-        "Performed manual testing for various projects.",
-        "Developed & implemented Selenium test scripts to automate testing scenarios.",
-        "Designed, developed & maintained a .NET app for running Selenium automation.",
-        "DWorked as integral part of teams & clients based in Canada, US and Sri Lanka."
-      ]
+			"Wrote efficient SQL queries, stored procedures, triggers, views & functions.",
+			"Troubleshot & resolved database-related issues promptly.",
+			"Documented database designs and processes for 2+ projects.",
+			"Defined frontend requirements and implemented changes using Blazor.",
+			"Enhanced backend operations & implemented functional requirements in .NET.",
+			"Managed Zendesk to improve customer support, reducing response time by 35%.",
+			"Performed manual testing across 6+ projects, reducing bugs by 30%.",
+			"Built and ran 500+ Selenium test scripts to automate regression testing.",
+			"Developed a .NET app to execute test automation, cutting manual effort by 70%.",
+			"Worked as integral part of teams & clients based in Canada, US and Sri Lanka."
+		]
     },
     {
       "Image": "/static/media/MDZ_logo.d4b4c64faf7293475292.jpg",
@@ -1045,14 +1045,17 @@ class Server {
       "LocationType": "On-site",
       "Date": "Sept 2024 - Mar 2025",
       "Description": [
-        "Designed, developed, & maintained SQL databases for various applications.",
-        "Wrote efficient SQL queries, stored procedures, triggers, & functions.",
-        "Performed database tuning & optimization to maximize performance.",
-        "Collaborated with teams to gather requirements & design database architecture.",
-        "Troubleshot & resolved database-related issues promptly.",
-        "Ensured data integrity, security, & compliance with industry best practices.",
-        "Developed & maintained documentation for database design & processes."
-      ]
+			"Wrote efficient SQL queries, stored procedures, triggers, views & functions.",
+			"Troubleshot & resolved database-related issues promptly.",
+			"Documented database designs and processes for 2+ projects.",
+			"Defined frontend requirements and implemented changes using Blazor.",
+			"Enhanced backend operations & implemented functional requirements in .NET.",
+			"Managed Zendesk to improve customer support, reducing response time by 35%.",
+			"Performed manual testing across 6+ projects, reducing bugs by 30%.",
+			"Built and ran 500+ Selenium test scripts to automate regression testing.",
+			"Developed a .NET app to execute test automation, cutting manual effort by 70%.",
+			"Worked as integral part of teams & clients based in Canada, US and Sri Lanka."
+		]
     },
     {
       "Image": "data:image/jpeg;base64,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",
@@ -1063,15 +1066,14 @@ class Server {
       "LocationType": "On-site",
       "Date": "Nov 2023 - Sep 2024",
       "Description": [
-        "Created a MERN Stack application for Audit and Legal teams' Report Generation tasks using Lime’s MongoDB and Finacle's PostgreSQL databases.",
-        "Ensured data integrity by writing PostgreSQL scripts to validate backend data from Finacle against inbank databases.",
-        "Used MongoDB queries to check frontend data from Lime against logical workflows.",
-        "Manually tested Lime workflows related to Customers, Savings, and FDs, maintaining test environment records.",
-        "Analyzed requirements and wrote test cases for Lime workflows, both new and predefined to detect usability and performance issues.",
-        "Identified, documented, and reported bugs in Lime and Finacle via Jira. Regression tests ensured workflows still functioned correctly after system changes.",
-        "Created a sanction list for better security and prepared a user manual with screenshots for maintaining it. Collaborated with the Legal and Compliance Team on Lime Risk Score setups for security.",
-        "Conducted UAT training sessions and provided ongoing support afterward for AFC Branches, validating system functionalities from a user perspective."
-      ]
+			"Developed & hosted a MERN + PostgreSQL app for internal reporting used by 5 teams.",
+			"Conducted Finacle data validation using PostgreSQL & MongoDB queries.",
+			"Performed manual testing for 40+ core banking solution workflows.",
+			"Created 500+ test cases and detailed documentation for QA processes.",
+			"Identified and reported 30+ bugs in core banking workflows during testing cycles.",
+			"Supported implementation of security measures, including sanction list validation.",
+			"Conducted UAT training sessions for 200+ users & provided ongoing user support."
+		]
     }
   ],
   "Educations": [
