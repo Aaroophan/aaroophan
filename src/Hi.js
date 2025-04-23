@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion"
 import { useScroll, useSpring, useTransform, useMotionValueEvent } from 'framer-motion';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './index.css';
+import useWindowSize from 'react-use/lib/useWindowSize';
 
 import Photo from "./Images/Aaroophan - Portrait - 2024.jpg";
 
@@ -23,6 +24,8 @@ export default function Hi(){
     // useMotionValueEvent(scrollY, "change", (latest) => {
     //     console.log("Page scroll: ", latest);
     // })
+
+    let { width, height } = useWindowSize();
 
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, threshold: 0.2 });
@@ -208,12 +211,11 @@ export default function Hi(){
         return () => clearInterval(interval);
     }, []);
 
-
     return(
         <>
-        {window.innerWidth < 1000 ? null : <><br/><br/></>}
+        {/* {window.innerWidth < 1000 ? null : <><br/><br/></>} */}
         {/* <Particles/> */}
-        <div ref={ref} className={window.innerWidth < 1000 ? `container row gx-2 text-center justify-content-center` : `row gx-2 mx-5 text-center justify-content-center p-3`}>
+        <div ref={ref} className={window.innerWidth < 1000 ? `container row gx-2 text-center justify-content-center` : `row gx-2 mx-5 text-center justify-content-center p-3`} style={{height:`${height-150}px`}}>
             <div id="LoginHere" className="col-lg-4 text-white">
                 <motion.div
                     initial={{ opacity: 0, scale: 0 }}
@@ -358,7 +360,7 @@ export default function Hi(){
                 </div>
             </div>
         </div>
-        {window.innerWidth < 1000 ? null : <><br/><br/><br/><br/></>}
+        {/* {window.innerWidth < 1000 ? null : <><br/><br/><br/><br/></>} */}
         </>
     );
 }

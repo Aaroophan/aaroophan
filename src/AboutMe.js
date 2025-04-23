@@ -9,11 +9,15 @@ import Cube from './Cube';
 import Data from './Data';
 
 import Text3D from './Text3D';
+import useWindowSize from 'react-use/lib/useWindowSize';
 
 import ServerURL from './ServerURL';
 import Man3d from './Man3D';
 
 export default function AboutMe(){
+    
+    let { width, height } = useWindowSize();
+
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, threshold: 0.2 });
     const ref2 = useRef(null);
@@ -42,7 +46,7 @@ export default function AboutMe(){
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
         >
-        <div ref={ref} className={window.innerWidth < 1000 ? `container row gx-2 text-center justify-content-center p-3` : `row gx-2 mx-5 text-center justify-content-center p-3`}>
+        <div ref={ref} className={window.innerWidth < 1000 ? `container row gx-2 text-center justify-content-center p-3` : `row gx-2 mx-5 text-center justify-content-center p-3`} {height < 1000 ? null : style={{height:`${height-150}px`}}}>
             <div ref={ref2} id="AboutMe" className="boxshadow col-lg-12 text-white bg-transparent pt-4 pb-4 ps-3 pe-3 rounded-4  " style={{textAlign: 'justify', backdropFilter: 'blur(5px) brightness(70%)'}}>
                 <div className="row gx-6 text-center justify-content-center">
                     <div className="col-lg-4 text-white" style={{textAlign: 'justify'}}>
