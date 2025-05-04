@@ -1,5 +1,5 @@
 <!-- ==================== DYNAMIC HEADER ==================== -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F728&width=435&lines=Hi+👋+I'm+Aaroophan;Full+Stack+Developer⚡;Associate+Database+Developer;Agile+Team+Player;React,+Node,+C#,+.NET,+SQL,+PostgreSQL;MERN+Stack+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F728&width=435&lines=Hi+👋+I'm+Aaroophan;Full+Stack+Developer⚡;Associate+Database+Developer;Agile+Team+Player;React,+Node,+C%23,+.NET,+SQL,+PostgreSQL;MERN+Stack+Enthusiast)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaroophan&style=flat-square&color=blue)
 
@@ -22,9 +22,9 @@
 ## 📅 Recent Activity
 <!--START_SECTION:activity-->
 <!-- This section will auto-update with your actual activity -->
-1. 🎉 Merged PR [#23](https://github.com/Aaroophan/aaroophan/pull/23) in [profile-repo](https://github.com/Aaroophan/aaroophan)
-2. 🚀 Published release [v1.0.0](https://github.com/Aaroophan/aaroophan/releases/tag/v1.0.0)
-3. 💪 Opened PR [#24](https://github.com/Aaroophan/aaroophan/pull/24) in [profile-repo](https://github.com/Aaroophan/aaroophan)
+1. 🎉 Merged PR [#23](https://github.com/Aaroophan/Aaroophan/pull/23) in [profile-repo](https://github.com/Aaroophan/Aaroophan)
+2. 🚀 Published release [v1.0.0](https://github.com/Aaroophan/Aaroophan/releases/tag/v1.0.0)
+3. 💪 Opened PR [#24](https://github.com/Aaroophan/Aaroophan/pull/24) in [profile-repo](https://github.com/Aaroophan/Aaroophan)
 <!--END_SECTION:activity-->
 
 ## 🤖 Random Dev Joke
