@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 import type { Settings } from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import ServerURL from './ServerURL';
+import portfolioService from './ServerURL';
 
 export default function Techs() {
     const refs = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
@@ -36,7 +36,7 @@ export default function Techs() {
         arrows: false,
     };
 
-    const TechnologyComponents = ServerURL.Data().Technologies.map((TechnologyComponent: [string, any[]], index1: number) => {
+    const TechnologyComponents = portfolioService.getTechnologies().map((TechnologyComponent: [string, any[]], index1: number) => {
         return TechnologyComponent[1].map((TechnologyComponentDetail: [string, string], index: number) => (
             <motion.div
                 key={`tech-${index1}-${index}`}
@@ -80,7 +80,7 @@ export default function Techs() {
         ));
     });
 
-    const TechnologyTypes = ServerURL.Data().Technologies.map((TechnologyType: [string, any[]], index: number) => (
+    const TechnologyTypes = portfolioService.getTechnologies().map((TechnologyType: [string, any[]], index: number) => (
         <motion.div
             key={`type-${index}`}
             initial={{ opacity: 0 }}
