@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/dep_node_modules
 /.pnp
 .pnp.js
 
@@ -12,6 +13,7 @@
 
 
 # misc
+.gitignore
 .DS_Store
 .env.local
 .env.development.local
