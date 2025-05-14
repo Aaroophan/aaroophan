@@ -2,7 +2,6 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useScroll, useMotionValueEvent } from "framer-motion";
-import ThemeSet from './ThemeSet';
 import EducationSlider from './EducationSlider';
 import CertificatesSlider from './CertificatesSlider';
 import ExperienceSlider from './ExperienceSlider';
@@ -68,7 +67,6 @@ const HomePage: React.FC = () => {
                 <References />
 
                 <ThemeHr />
-                <ThemeSet />
 
                 <ThemeHr />
             </div>

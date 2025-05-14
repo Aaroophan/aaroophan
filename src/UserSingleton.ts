@@ -1,6 +1,6 @@
 class UserSingleton {
 	private static instance: UserSingleton;
-	private currentUser: string | null = null;
+	private currentUser: any = null;
 
 	private constructor() { }
 
@@ -11,14 +11,14 @@ class UserSingleton {
 		return UserSingleton.instance;
 	}
 
-	setUser(User: string | null): void {
-		this.currentUser = User;
+	setUserName(userData: any): void {
+		this.currentUser = userData;
 	}
 
-	getUser(): string | null {
+	getUserName(): any {
 		return this.currentUser;
 	}
 }
 
-const UserSingletonInstance = UserSingleton.getInstance();
-export default UserSingletonInstance;
+const CurrentUserNameSingleton = UserSingleton.getInstance();
+export default CurrentUserNameSingleton;

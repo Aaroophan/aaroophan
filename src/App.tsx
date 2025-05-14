@@ -40,9 +40,9 @@ export default function App() {
 
         const fetchUserData = async () => {
             try {
-                const data = await ServerURL.Data();
+                const data = ServerURL.Data();
                 setUserData(data);
-                CurrentUserNameSingleton.setUserName(data);
+                CurrentUserNameSingleton.setUserName(data.Main.Name);
             } catch (err) {
                 const errorMessage = err instanceof Error ? err.message : 'Unknown error occurred';
                 setError(errorMessage);

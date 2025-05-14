@@ -1,3 +1,6 @@
+/// <reference types="react" />
+/// <reference types="react-dom" />
+
 declare module '*.JPG' {
     const value: string;
     export default value;
@@ -31,7 +34,7 @@ declare module '*.svg' {
 declare module '*.gif' {
     const content: string;
     export default content;
-}   
+}
 
 declare module '*.webp' {
     const content: string;

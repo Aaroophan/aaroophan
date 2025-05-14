@@ -1,76 +1,49 @@
+import React from 'react';
 import { useRef, useState, useEffect } from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 import { motion, useInView } from "framer-motion";
-import './index.css';
 import useWindowSize from 'react-use/lib/useWindowSize';
-import ThemeSingleton from './ThemeSingleton';
 import ServerURL from './ServerURL';
-
-interface MainData {
-    Main: {
-        Greeting: string;
-        Name: string;
-        Tags: string[];
-        Links: Array<{
-            Icon: string;
-            Href: string;
-        }>;
-        Images: string[];
-    };
-}
-
-interface QuoteData {
-    h: string;
-}
+import ThemeSingleton from './ThemeSingleton';
+import { UserData } from './types/user-data';
 
 const Hi: React.FC = () => {
     const { width, height } = useWindowSize();
     const ref = useRef<HTMLDivElement>(null);
     const isInView = useInView(ref, { once: false, threshold: 0.2 });
 
-    const [currentTagIndex, setCurrentTagIndex] = useState<number>(0);
-    const [isVisible, setIsVisible] = useState<boolean>(false);
-    const [quote, setQuote] = useState<QuoteData | null>(null);
-    const [currentTagIndex2, setCurrentTagIndex2] = useState<number>(0);
-
-    const mainData = ServerURL.Data() as MainData;
+    const [currentTagIndex, setCurrentTagIndex] = useState(0);
+    const [isVisible, setIsVisible] = useState(false);
+    const [quote, setQuote] = useState<string | null>(null);
+    const [currentTagIndex2, setCurrentTagIndex2] = useState(0);
+    const [mainData, setMainData] = useState<UserData['Main'] | null>(null);
 
     useEffect(() => {
+        try {
+            const data = ServerURL.getMainData();
+            setMainData(data);
+        } catch (error) {
+            console.error("Error loading main data:", error);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (!mainData?.Tags) return;
+
         const interval = setInterval(() => {
             setIsVisible(false);
             setTimeout(() => {
-                setCurrentTagIndex(prev => (prev + 1) % mainData.Main.Tags.length);
+                setCurrentTagIndex(prev => (prev + 1) % mainData.Tags.length);
                 setIsVisible(true);
             }, 1000);
         }, 4000);
 
         return () => clearInterval(interval);
-    }, [mainData.Main.Tags.length]);
+    }, [mainData?.Tags.length]);
 
-    useEffect(() => {
-        const fetchQuote = async () => {
-            try {
-                const response = await fetch(`${ServerURL.Server()}/quote`);
-                const data: QuoteData[] = await response.json();
-                setQuote(data[0]);
-            } catch (err) {
-                console.error('Error fetching quote:', err);
-            }
-        };
-
-        fetchQuote();
-    }, []);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentTagIndex2(prev =>
-                (prev + 1) % mainData.Main.Images.length
-            );
-        }, 7500);
-
-        return () => clearInterval(interval);
-    }, [mainData.Main.Images.length]);
+    // Add error boundaries and loading states
+    if (!mainData) {
+        return <div>Loading...</div>;
+    }
 
     const Links = mainData.Main.Links.map((link, index) => (
         <motion.span

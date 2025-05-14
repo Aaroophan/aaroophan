@@ -1,19 +1,18 @@
-import { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion, useInView } from "framer-motion";
-import type { Settings } from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import portfolioService from './ServerURL';
+import ServerURL from './ServerURL';
 
-export default function Techs() {
+const Techs: React.FC = () => {
     const refs = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
-    const isInView = refs.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const isInView = refs.map(r => useInView(r, { once: false, amount: 0.2 }));
 
     const refs2 = Array.from({ length: 8 }, () => useRef<HTMLImageElement>(null));
-    const isInView2 = refs2.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const isInView2 = refs2.map(r => useInView(r, { once: false, amount: 0.2 }));
 
     const [slidesToShow, setSlidesToShow] = useState<number>(window.innerWidth < 1000 ? 3 : 10);
 
@@ -26,7 +25,7 @@ export default function Techs() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    const settings: Settings = {
+    const settings = {
         infinite: true,
         speed: 500,
         slidesToShow: slidesToShow,
@@ -36,8 +35,11 @@ export default function Techs() {
         arrows: false,
     };
 
-    const TechnologyComponents = portfolioService.getTechnologies().map((TechnologyComponent: [string, any[]], index1: number) => {
-        return TechnologyComponent[1].map((TechnologyComponentDetail: [string, string], index: number) => (
+    const data = ServerURL.Data();
+    const technologies = data.Technologies;
+
+    const TechnologyComponents = technologies.map((TechnologyComponent, index1) => {
+        return TechnologyComponent[1].map((TechnologyComponentDetail, index) => (
             <motion.div
                 key={`tech-${index1}-${index}`}
                 whileHover={{
@@ -80,7 +82,7 @@ export default function Techs() {
         ));
     });
 
-    const TechnologyTypes = portfolioService.getTechnologies().map((TechnologyType: [string, any[]], index: number) => (
+    const TechnologyTypes = technologies.map((TechnologyType, index) => (
         <motion.div
             key={`type-${index}`}
             initial={{ opacity: 0 }}
@@ -133,4 +135,6 @@ export default function Techs() {
             {TechnologyTypes}
         </div>
     );
-}
+};
+
+export default Techs;

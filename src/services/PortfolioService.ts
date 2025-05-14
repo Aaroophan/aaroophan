@@ -1,53 +1,26 @@
-import { PortfolioData } from '../types/portfolio';
+import { UserData } from '../types/user-data';
 
-export class PortfolioService {
-  private static instance: PortfolioService;
-  private data: PortfolioData;
+export class PortfolioService<T extends UserData> {
+  private static instance: PortfolioService<UserData>;
+  private data: T;
 
-  private constructor(data: PortfolioData) {
+  private constructor(data: T) {
     this.data = data;
   }
 
-  public static getInstance(data?: PortfolioData): PortfolioService {
-    if (!PortfolioService.instance && data) {
+  public static getInstance(data: UserData): PortfolioService<UserData> {
+    if (!PortfolioService.instance) {
       PortfolioService.instance = new PortfolioService(data);
     }
     return PortfolioService.instance;
   }
 
-  public getAllData(): PortfolioData {
-    return this.data;
-  }
-
-  public getMainData() {
+  public getMainData(): UserData['Main'] {
     return this.data.Main;
   }
 
-  public getAboutData() {
-    return this.data.About;
-  }
-
-  public getTechnologies() {
-    return this.data.Technologies;
-  }
-
-  public getProjects() {
+  // Add other data access methods
+  public getProjects(): UserData['Projects'] {
     return this.data.Projects;
   }
-
-  public getExperience() {
-    return this.data.Experience;
-  }
-
-  public getEducation() {
-    return this.data.Education;
-  }
-
-  public getCertificates() {
-    return this.data.Certificates;
-  }
-
-  public getReferences() {
-    return this.data.References;
-  }
-} 
+}

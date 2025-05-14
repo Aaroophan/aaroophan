@@ -1,24 +1,13 @@
 import React, { useRef, useState, useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useSwipeable } from 'react-swipeable';
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import ThemeSingleton from './ThemeSingleton';
 import ServerURL from './ServerURL';
 
-interface Project {
-    Image: string;
-    Name: string;
-    Date: string;
-    Description: string;
-    Technologies: string;
-    Links: Array<{
-        Href: string;
-        Icon: string;
-    }>;
-}
-
-const ProjectSlider: React.FC = () => {
+const ProjectsSlider: React.FC = () => {
     const DivRef = useRef<HTMLDivElement>(null);
     const DivisInView = useInView(DivRef, { once: false, threshold: 0.2 });
     const RefTitle = useRef<HTMLHeadingElement>(null);
@@ -36,8 +25,8 @@ const ProjectSlider: React.FC = () => {
     const [currentSlide, setCurrentSlide] = useState<number>(0);
     const [intervalId, setIntervalId] = useState<number | null>(null);
 
-    // Typed data fetch
-    const data = ServerURL.Data() as { Projects: Project[] };
+    // Get data using the static Data method
+    const data = ServerURL.Data();
 
     // Links with proper typing
     const Links = data.Projects.map((project) =>
@@ -142,7 +131,6 @@ const ProjectSlider: React.FC = () => {
                         <ul className="list-inline">
                             {Links[index]}
                         </ul>
-                        <h5 className="mb-4" style={{ cursor: 'default' }}><i>{project.Date}</i></h5>
                         <p style={{ cursor: 'default', textAlign: 'justify' }}>{project.Description}</p>
                         <p style={{ cursor: 'default', textAlign: 'justify' }}><i>{project.Technologies}</i></p>
                     </div>
@@ -242,4 +230,4 @@ const ProjectSlider: React.FC = () => {
     );
 };
 
-export default ProjectSlider;
+export default ProjectsSlider;

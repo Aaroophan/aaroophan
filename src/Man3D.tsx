@@ -5,7 +5,8 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 
-import ThreeDee from './Images/FinalBaseMesh.obj';
+// Import a default 3D model since FinalBaseMesh.obj is missing
+const defaultModelUrl = 'https://threejs.org/examples/models/obj/male02/male02.obj';
 
 const Man3d: React.FC = () => {
     const mountRef = useRef<HTMLDivElement>(null);
@@ -42,7 +43,7 @@ const Man3d: React.FC = () => {
 
         const loader = new OBJLoader();
         loader.load(
-            ThreeDee,
+            defaultModelUrl,
             (obj) => {
                 obj.name = "ThreeDeeObj";
                 obj.position.set(0, -10, 0);
