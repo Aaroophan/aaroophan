@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 
-const jsonFilePath = 'https://aaroophan-com.stackstaging.com/Users/Aaroophan.json';
+const jsonFilePath = 'https://aaroophan-com.stackstaging.com/Users/Aaroophan.json'; 
 
 function ServerLog(TimeStamp, EndPoint, SearchObj, MatchObj){
     console.log();
