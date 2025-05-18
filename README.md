@@ -18,14 +18,5 @@
   <img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" style="max-width: 100%;">
 </div>
 
-<!-- ==================== AUTOMATED ACTIVITY ==================== -->
-## 📅 Recent Activity
-<!--START_SECTION:activity-->
-<!-- This section will auto-update with your actual activity -->
-1. 🎉 Merged PR [#23](https://github.com/Aaroophan/Aaroophan/pull/23) in [profile-repo](https://github.com/Aaroophan/Aaroophan)
-2. 🚀 Published release [v1.0.0](https://github.com/Aaroophan/Aaroophan/releases/tag/v1.0.0)
-3. 💪 Opened PR [#24](https://github.com/Aaroophan/Aaroophan/pull/24) in [profile-repo](https://github.com/Aaroophan/Aaroophan)
-<!--END_SECTION:activity-->
-
 ## 🤖 Random Dev Joke
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark)
