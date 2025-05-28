@@ -2,9 +2,9 @@ import React from 'react';
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from "framer-motion";
 import useWindowSize from 'react-use/lib/useWindowSize';
-import ServerURL from './ServerURL';
-import ThemeSingleton from './ThemeSingleton';
-import { UserData } from './types/user-data';
+import ServerURL from '../utils/ServerURL';
+import ThemeSingleton from '../utils/ThemeSingleton';
+import { UserData } from '../types/user-data';
 
 const Hi: React.FC = () => {
     const { width, height } = useWindowSize();

@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useSwipeable } from 'react-swipeable';
 import { motion, useInView } from "framer-motion";
-import ThemeSingleton from './ThemeSingleton';
-import ServerURL from './ServerURL';
+import ThemeSingleton from '../utils/ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
 
 interface Certificate {
     Image: string;

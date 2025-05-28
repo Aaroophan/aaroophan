@@ -1,0 +1,220 @@
+import React, { useRef, useState, useEffect } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { useSwipeable } from 'react-swipeable';
+import { motion, useInView } from "framer-motion";
+import ThemeSingleton from '../utils/ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
+
+interface Experience {
+    Image: string;
+    Title: string;
+    Company: string;
+    JobType: string;
+    Location: string;
+    LocationType: string;
+    Date: string;
+    Description: string[];
+}
+
+interface ExperiencesData {
+    Experiences: Experience[];
+}
+
+const ExperienceSlider: React.FC = () => {
+    const DivRef = useRef<HTMLDivElement>(null);
+    const DivisInView = useInView(DivRef, { once: false, threshold: 0.2 });
+
+    // Refs with proper typing
+    const RefTitle = useRef<HTMLHeadingElement>(null);
+    const refs = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
+    const refs2 = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
+
+    // View states with proper typing
+    const isInView = refs.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const isInView2 = refs2.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const TitleisInView = useInView(RefTitle, { once: false, threshold: 0.2 });
+
+    // State with proper typing
+    const [currentSlide, setCurrentSlide] = useState<number>(0);
+    const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
+
+    // Typed data fetch
+    const data = ServerURL.Data() as ExperiencesData;
+
+    // Description with proper typing
+    const Description = data.Experiences.map(experience =>
+        experience.Description.map((line, index) => <li key={index}>{line}</li>)
+    );
+
+    // Slides with proper typing
+    const Slides = data.Experiences.map((experience, index) => (
+        <div ref={refs[index]} key={index} className="row gx-3 text-center justify-content-center m-2">
+            <div id="LoginHere" className="col-lg-3 text-white">
+                <img
+                    src={experience.Image}
+                    alt={experience.Company}
+                    height="200px"
+                    width="200px"
+                    className={`boxshadow floating zoom rounded-1 m-2 border border-${ThemeSingleton.getTheme()} border-2 rounded-5`}
+                /><br /><br />
+            </div>
+            <div className="col-lg-8" style={{ backdropFilter: 'blur(5px) brightness(70%)', padding: '1rem', borderRadius: '25px' }}>
+                <div className="card text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none', display: 'flex', alignItems: 'center' }} id="Box">
+                    <h2 className="zoom textshadow fw-bold mb-4" style={{ cursor: 'default' }}>
+                        {experience.Title.split("").map((letter, idx) => (
+                            <motion.span
+                                key={idx}
+                                initial={{ opacity: 0 }}
+                                animate={isInView[index] ? { opacity: 1 } : { opacity: 0 }}
+                                transition={{ duration: 0.1, delay: idx * 0.1 }}
+                                whileHover={{
+                                    scale: [1, 1.1, 0.9, 1.05, 0.95, 1],
+                                    rotate: [0, 3, -2, 1.5, -1, 0],
+                                    transition: { duration: 1, ease: "easeInOut" }
+                                }}
+                                whileTap={{
+                                    scale: [1, 1.1, 0.9, 1.05, 0.95, 1],
+                                    rotate: [0, 3, -2, 1.5, -1, 0],
+                                    transition: { duration: 1, ease: "easeInOut" }
+                                }}
+                            >
+                                {letter === " " ? (
+                                    <span>&nbsp;</span>
+                                ) : (
+                                    <motion.a
+                                        className="list-inline-item text-decoration-none text-light"
+                                        animate={{
+                                            x: [-1, 1],
+                                            y: [-1, 1],
+                                            scale: [1, 1.1],
+                                            transition: {
+                                                repeat: Infinity,
+                                                repeatType: 'mirror',
+                                                duration: 1,
+                                                ease: "easeInOut",
+                                                delay: idx * 0.1
+                                            }
+                                        }}
+                                    >
+                                        {letter}
+                                    </motion.a>
+                                )}
+                            </motion.span>
+                        ))}
+                    </h2>
+                    <h4 className="fw-bold mb-4" style={{ cursor: 'default' }}>
+                        {experience.Company} · {experience.JobType}
+                    </h4>
+                    <h5 className="mb-4" style={{ cursor: 'default' }}>
+                        {experience.Location} · {experience.LocationType}
+                    </h5>
+                    <h5 className="mb-4" style={{ cursor: 'default' }}>
+                        {experience.Date}
+                    </h5>
+                    <ul className='text-start text-white'>
+                        {Description[index]}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    ));
+
+    useEffect(() => {
+        const startSlideShow = () => {
+            const id = setInterval(() => {
+                setCurrentSlide(prev => (prev + 1) % Slides.length);
+            }, 2000);
+            setIntervalId(id);
+        };
+
+        startSlideShow();
+        return () => {
+            intervalId && clearInterval(intervalId);
+        };
+    }, [Slides.length]);
+
+    const nextSlide = () => setCurrentSlide(prev => (prev + 1) % Slides.length);
+    const prevSlide = () => setCurrentSlide(prev => (prev - 1 + Slides.length) % Slides.length);
+
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: nextSlide,
+        onSwipedRight: prevSlide,
+        preventDefaultTouchmoveEvent: true,
+        trackMouse: true
+    });
+
+    const stopSlideShow = () => intervalId && clearInterval(intervalId);
+    const resumeSlideShow = () => {
+        const id = setInterval(() => {
+            setCurrentSlide(prev => (prev + 1) % Slides.length);
+        }, 4000);
+        setIntervalId(id);
+    };
+
+    const Title = "Experiences...";
+
+    return (
+        <div ref={DivRef}>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={DivisInView ? { opacity: 1 } : { opacity: 0 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+            >
+                <div {...swipeHandlers} style={{ overflow: 'hidden' }} className="container text-center pt-5 pb-5">
+                    <h2 ref={RefTitle} className="floating textshadow fw-bold text-white mb-4 mt-4" style={{ cursor: 'default' }}>
+                        {Title.split("").map((letter, index) => (
+                            <motion.span
+                                key={index}
+                                initial={{ opacity: 0 }}
+                                animate={TitleisInView ? { opacity: 1 } : { opacity: 0 }}
+                                transition={{ duration: 0.1, delay: index * 0.1 }}
+                            >
+                                {letter}
+                            </motion.span>
+                        ))}
+                    </h2><br />
+                    <div
+                        style={{
+                            display: 'flex',
+                            transition: 'transform 0.5s ease-in-out',
+                            transform: `translateX(-${currentSlide * 100}%)`
+                        }}
+                        onMouseEnter={stopSlideShow}
+                        onMouseLeave={resumeSlideShow}
+                    >
+                        {Slides.map((Slide, index) => (
+                            <div
+                                style={{ flex: '0 0 100%', maxWidth: '100%' }}
+                                key={index}
+                            >
+                                {Slide}
+                            </div>
+                        ))}
+                    </div>
+                    <div style={{ textAlign: 'center' }}>
+                        {Slides.map((_, index) => (
+                            <button
+                                key={index}
+                                style={{
+                                    display: 'inline-block',
+                                    height: '10px',
+                                    width: '10px',
+                                    backgroundColor: currentSlide === index ? '#fff' : '#bbb',
+                                    borderRadius: currentSlide === index ? '20%' : '50%',
+                                    margin: '0 6px',
+                                    border: 'none',
+                                    cursor: 'pointer'
+                                }}
+                                onClick={() => setCurrentSlide(index)}
+                                aria-label={`Go to slide ${index + 1}`}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </motion.div>
+        </div>
+    );
+};
+
+export default ExperienceSlider;

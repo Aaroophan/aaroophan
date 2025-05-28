@@ -2,17 +2,17 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useScroll, useMotionValueEvent } from "framer-motion";
-import EducationSlider from './EducationSlider';
-import CertificatesSlider from './CertificatesSlider';
-import ExperienceSlider from './ExperienceSlider';
-import ProjectsSlider from './ProjectsSlider';
-import Techs from './Techs';
-import Hi from './Hi';
-import AboutMe from './AboutMe';
+import EducationSlider from '../components/EducationSlider';
+import CertificatesSlider from '../components/CertificatesSlider';
+import ExperienceSlider from '../components/ExperienceSlider';
+import ProjectsSlider from '../components/ProjectsSlider';
+import Techs from '../components/Techs';
+import Hi from '../components/Hi';
+import AboutMe from '../components/AboutMe';
 import References from './References';
-import ServerURL from './ServerURL';
-import Confetti from './Confetti';
-import ThemeSingleton from './ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
+import Confetti from '../components/Confetti';
+import ThemeSingleton from '../utils/ThemeSingleton';
 
 interface MainData {
     Main: {

@@ -3,36 +3,33 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useSwipeable } from 'react-swipeable';
 import { motion, useInView } from "framer-motion";
-import ThemeSingleton from './ThemeSingleton';
-import ServerURL from './ServerURL';
+import ThemeSingleton from '../utils/ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
 
-interface Experience {
+interface Education {
     Image: string;
+    Name: string;
     Title: string;
-    Company: string;
-    JobType: string;
-    Location: string;
-    LocationType: string;
     Date: string;
     Description: string[];
 }
 
-interface ExperiencesData {
-    Experiences: Experience[];
+interface EducationsData {
+    Educations: Education[];
 }
 
-const ExperienceSlider: React.FC = () => {
+const EducationSlider: React.FC = () => {
     const DivRef = useRef<HTMLDivElement>(null);
     const DivisInView = useInView(DivRef, { once: false, threshold: 0.2 });
 
     // Refs with proper typing
     const RefTitle = useRef<HTMLHeadingElement>(null);
-    const refs = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
-    const refs2 = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
+    const ref = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
+    const ref2 = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));
 
     // View states with proper typing
-    const isInView = refs.map(r => useInView(r, { once: false, threshold: 0.2 }));
-    const isInView2 = refs2.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const isInView = ref.map(r => useInView(r, { once: false, threshold: 0.2 }));
+    const isInView2 = ref2.map(r => useInView(r, { once: false, threshold: 0.2 }));
     const TitleisInView = useInView(RefTitle, { once: false, threshold: 0.2 });
 
     // State with proper typing
@@ -40,29 +37,30 @@ const ExperienceSlider: React.FC = () => {
     const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
 
     // Typed data fetch
-    const data = ServerURL.Data() as ExperiencesData;
+    const data = ServerURL.Data() as EducationsData;
 
     // Description with proper typing
-    const Description = data.Experiences.map(experience =>
-        experience.Description.map((line, index) => <li key={index}>{line}</li>)
+    const Description = data.Educations.map(education =>
+        education.Description.map((line, index) => <li key={index}>{line}</li>)
     );
 
     // Slides with proper typing
-    const Slides = data.Experiences.map((experience, index) => (
-        <div ref={refs[index]} key={index} className="row gx-3 text-center justify-content-center m-2">
+    const Slides = data.Educations.map((education, index) => (
+        <div ref={ref[index]} key={index} className="row gx-3 text-center justify-content-center m-2">
             <div id="LoginHere" className="col-lg-3 text-white">
                 <img
-                    src={experience.Image}
-                    alt={experience.Company}
+                    src={education.Image}
+                    alt={education.Name}
                     height="200px"
                     width="200px"
                     className={`boxshadow floating zoom rounded-1 m-2 border border-${ThemeSingleton.getTheme()} border-2 rounded-5`}
                 /><br /><br />
             </div>
+
             <div className="col-lg-8" style={{ backdropFilter: 'blur(5px) brightness(70%)', padding: '1rem', borderRadius: '25px' }}>
                 <div className="card text-white" style={{ background: 'rgba(0, 0, 0, 0)', border: 'none', display: 'flex', alignItems: 'center' }} id="Box">
                     <h2 className="zoom textshadow fw-bold mb-4" style={{ cursor: 'default' }}>
-                        {experience.Title.split("").map((letter, idx) => (
+                        {education.Name.split("").map((letter, idx) => (
                             <motion.span
                                 key={idx}
                                 initial={{ opacity: 0 }}
@@ -103,15 +101,15 @@ const ExperienceSlider: React.FC = () => {
                             </motion.span>
                         ))}
                     </h2>
+
                     <h4 className="fw-bold mb-4" style={{ cursor: 'default' }}>
-                        {experience.Company} · {experience.JobType}
+                        {education.Title}
                     </h4>
+
                     <h5 className="mb-4" style={{ cursor: 'default' }}>
-                        {experience.Location} · {experience.LocationType}
+                        {education.Date}
                     </h5>
-                    <h5 className="mb-4" style={{ cursor: 'default' }}>
-                        {experience.Date}
-                    </h5>
+
                     <ul className='text-start text-white'>
                         {Description[index]}
                     </ul>
@@ -152,7 +150,7 @@ const ExperienceSlider: React.FC = () => {
         setIntervalId(id);
     };
 
-    const Title = "Experiences...";
+    const Title = "Education...";
 
     return (
         <div ref={DivRef}>
@@ -174,6 +172,7 @@ const ExperienceSlider: React.FC = () => {
                             </motion.span>
                         ))}
                     </h2><br />
+
                     <div
                         style={{
                             display: 'flex',
@@ -192,6 +191,7 @@ const ExperienceSlider: React.FC = () => {
                             </div>
                         ))}
                     </div>
+
                     <div style={{ textAlign: 'center' }}>
                         {Slides.map((_, index) => (
                             <button
@@ -217,4 +217,4 @@ const ExperienceSlider: React.FC = () => {
     );
 };
 
-export default ExperienceSlider;
+export default EducationSlider;

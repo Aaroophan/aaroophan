@@ -4,8 +4,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link, useNavigate } from "react-router-dom";
 import React, { useRef } from 'react';
 import useWindowSize from 'react-use/lib/useWindowSize';
-import ServerURL from './ServerURL';
-import ThemeSingleton from './ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
+import ThemeSingleton from '../utils/ThemeSingleton';
 
 interface EditHandleParams {
     username: string;

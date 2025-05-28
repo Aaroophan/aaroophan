@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import useWindowSize from 'react-use/lib/useWindowSize';
 
 import Man3D from './Man3D';
-import ServerURL from './ServerURL';
+import ServerURL from '../utils/ServerURL';
 
 // Define interface for the data structure
 interface AboutData {

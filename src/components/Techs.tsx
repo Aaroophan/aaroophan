@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion, useInView } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import ServerURL from './ServerURL';
+import ServerURL from '../utils/ServerURL';
 
 const Techs: React.FC = () => {
     const refs = Array.from({ length: 8 }, () => useRef<HTMLDivElement>(null));

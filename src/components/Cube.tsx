@@ -5,15 +5,17 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 import type { Material, Mesh, PerspectiveCamera, WebGLRenderer, Scene } from 'three';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Import images with TypeScript-friendly syntax
-import ThreeDee from './Images/Chocolate Cake.obj';
-import Photo1 from "./Images/Profile_1.JPG";
-import Photo2 from "./Images/Profile_2.JPG";
-import Photo3 from "./Images/Profile_3.JPG";
-import Photo4 from "./Images/Profile_4.JPG";
-import Photo5 from "./Images/Profile_5.JPG";
-import Photo6 from "./Images/Profile_6.JPG";
+import ThreeDee from '../assets/Images/Chocolate Cake.obj';
+import Photo1 from "../assets/Images/Profile_1.JPG";
+import Photo2 from "../assets/Images/Profile_2.JPG";
+import Photo3 from "../assets/Images/Profile_3.JPG";
+import Photo4 from "../assets/Images/Profile_4.JPG";
+import Photo5 from "../assets/Images/Profile_5.JPG";
+import Photo6 from "../assets/Images/Profile_6.JPG";
 
 const Cube: React.FC = () => {
     const mountRef = useRef<HTMLDivElement>(null);

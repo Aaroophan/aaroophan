@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import React, { useRef } from 'react';
 import { Outlet, Link, useNavigate, NavigateFunction } from "react-router-dom";
-import ServerURL from './ServerURL';
-import ThemeSingleton from './ThemeSingleton';
+import ServerURL from '../utils/ServerURL';
+import ThemeSingleton from '../utils/ThemeSingleton';
 import useWindowSize from 'react-use/lib/useWindowSize';
 
 interface RegisterResponse {

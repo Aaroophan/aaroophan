@@ -1,5 +1,5 @@
-import { UserData } from './types/user-data';
-import portfolioData from './data/portfolioData';
+import { UserData } from '../types/user-data';
+import portfolioData from '../data/portfolioData';
 
 class ServerURL {
     private static instance: ServerURL;

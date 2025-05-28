@@ -1,24 +1,27 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './styles/App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Edit from './pages/Edit';
+import References from './pages/References';
 import { useEffect, useState } from 'react';
-import HomePage from './HomePage';
-import Header from './Header';
-import Footer from './Footer';
-import ThemeSingleton from './ThemeSingleton';
-import BackgroundSingleton from './BackgroundSingleton';
-import ProjectSlider from './ProjectsSlider';
-import EducationSlider from './EducationSlider';
-import CertificatesSlider from './CertificatesSlider';
-import ExperienceSlider from './ExperienceSlider';
-import Techs from './Techs';
-import References from './References';
-import Login from './Login';
-import Register from './Register';
-import Edit from './Edit';
-import CurrentUserNameSingleton from './UserSingleton';
-import ServerURL from './ServerURL';
+import ThemeSingleton from './utils/ThemeSingleton';
+import BackgroundSingleton from './utils/BackgroundSingleton';
+import ProjectsSlider from './components/ProjectsSlider';
+import EducationSlider from './components/EducationSlider';
+import CertificatesSlider from './components/CertificatesSlider';
+import ExperienceSlider from './components/ExperienceSlider';
+import Techs from './components/Techs';
+import CurrentUserNameSingleton from './utils/UserSingleton';
+import ServerURL from './utils/ServerURL';
 
 // Define interface for UserData based on your data structure
 interface UserData {
@@ -29,7 +32,7 @@ interface UserData {
     // Add other sections as needed
 }
 
-export default function App() {
+function App() {
     const [UserData, setUserData] = useState<UserData | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -79,6 +82,8 @@ export default function App() {
     );
 }
 
+export default App;
+
 interface RouterProps {
     UserData: UserData;
 }
@@ -118,7 +123,7 @@ function Router({ UserData }: RouterProps) {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/Technologies" element={<Techs />} />
-                <Route path="/Projects" element={<ProjectSlider />} />
+                <Route path="/Projects" element={<ProjectsSlider />} />
                 <Route path="/Experiences" element={<ExperienceSlider />} />
                 <Route path="/Educations" element={<EducationSlider />} />
                 <Route path="/Certificates" element={<CertificatesSlider />} />
