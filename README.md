@@ -1,5 +1,5 @@
 <!-- ==================== DYNAMIC HEADER ==================== -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F728&width=435&lines=Hi+👋+I'm+Aaroophan;Full+Stack+Developer⚡;Associate+Database+Developer;Agile+Team+Player;React,+Node,+C%23,+.NET,+SQL,+PostgreSQL;MERN+Stack+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F728&width=435&lines=Hi+👋+I'm+Aaroophan;Full+Stack+Developer⚡;Associate+Software+Engineer;Agile+Team+Player;React,+Node,+C%23,+.NET,+SQL,+PostgreSQL;MERN+Stack+Enthusiast)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaroophan&style=flat-square&color=blue)
 
